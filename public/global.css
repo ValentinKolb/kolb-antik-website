@@ -22187,6 +22187,10 @@
   }
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

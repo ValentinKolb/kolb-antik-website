@@ -16,7 +16,7 @@ export default ssr(async (c) => {
     <Layout>
       <>
         {/* Page Header */}
-        <section class={`${containerClass} pt-12`}>
+        <section class={`${containerClass} pt-12`} style="view-transition-name: page-header">
           <p class="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-6">
             So funktioniert's
           </p>
@@ -34,7 +34,7 @@ export default ssr(async (c) => {
         <ConditionsSection />
 
         {/* CTA */}
-        <section class={`${containerClass} text-center pb-4`}>
+        <section class={`${containerClass} text-center pb-4`} style="view-transition-name: cta">
           <h2 class="font-serif text-3xl font-normal mb-4 tracking-tight">
             Bereit für den ersten Schritt?
           </h2>

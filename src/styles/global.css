@@ -12,32 +12,49 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
+    --font-serif: "Playfair Display", Georgia, serif;
+    --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@view-transition {
+    navigation: auto;
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: #a1a1aa transparent;
-  }
+    html {
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+        scrollbar-color: #a1a1aa transparent;
+    }
 
-  ::-webkit-scrollbar {
-    width: 6px;
-  }
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #a1a1aa;
-    border-radius: 3px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: #71717a;
-  }
+    nav#main-nav {
+        view-transition-name: main-nav;
+    }
 
-  a, button {
-    cursor: pointer;
-  }
+    main {
+        view-transition-name: main-content;
+    }
+
+    footer {
+        view-transition-name: footer;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #a1a1aa;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #71717a;
+    }
+
+    a,
+    button {
+        cursor: pointer;
+    }
 }

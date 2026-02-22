@@ -3,7 +3,7 @@ import type { JSX } from "solid-js";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
 export const HeroSection = (): JSX.Element => (
-  <section class="min-h-[calc(100vh-4rem)] 2xl:min-h-0 2xl:h-[800px]">
+  <section class="min-h-[calc(100vh-4rem)] 2xl:min-h-0 2xl:h-[800px]" style="view-transition-name: hero">
     <div
       class={`${containerClass} grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 min-h-[calc(100vh-5rem)] 2xl:min-h-0 h-full`}
     >

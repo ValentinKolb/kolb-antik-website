@@ -10,7 +10,7 @@ export default ssr(async (c) => {
 
   return (
     <Layout>
-      <section class={`${containerClass} pt-12 pb-8`}>
+      <section class={`${containerClass} pt-12 pb-8`} style="view-transition-name: page-header">
         <p class="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-6">
           Rechtliches
         </p>

@@ -5,6 +5,7 @@ const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 export const CTASection = (): JSX.Element => (
   <section
     class={`${containerClass} grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8 lg:gap-12 items-center`}
+    style="view-transition-name: cta"
   >
     {/* Content */}
     <div>

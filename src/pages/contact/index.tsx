@@ -15,7 +15,7 @@ export default ssr(async (c) => {
     <Layout>
       <>
         {/* Page Header */}
-        <section class={`${containerClass} pt-12`}>
+        <section class={`${containerClass} pt-12`} style="view-transition-name: page-header">
           <p class="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-6">
             Kontakt
           </p>
