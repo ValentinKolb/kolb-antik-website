@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# KI
+.claude
+CLAUDE.md
+
+# Build output
+dist/
+_ssr/
+
+# Bun (keep bun.lockb for reproducible builds)
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+*.log
+
+# Original PNGs (only WebP is used)
+public/**/*.png
+public/*.png

@@ -1,0 +1,30 @@
+{
+  "name": "kolb-antik-homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development bun --watch --preload=./scripts/preload.ts src/server.tsx",
+    "build": "bun run build:css && bun scripts/build.ts",
+    "build:css": "tailwindcss -i src/styles/global.css -o public/global.css --minify",
+    "start": "NODE_ENV=production bun dist/server.js"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/playfair-display": "^5.2.8",
+    "@tabler/icons-webfont": "^3.37.1",
+    "@valentinkolb/ssr": "latest",
+    "hono": "^4.11.1",
+    "seroval": "^1.0.0",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-typescript": "^7.24.0",
+    "@tailwindcss/cli": "^4.0.0",
+    "@types/bun": "latest",
+    "babel-preset-solid": "^1.8.0",
+    "bun-plugin-tailwind": "^0.1.2",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

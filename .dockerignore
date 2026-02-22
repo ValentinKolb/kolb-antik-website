@@ -1,0 +1,5 @@
+node_modules
+dist
+_ssr
+.DS_Store
+.github
