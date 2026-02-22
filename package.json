@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "NODE_ENV=development bun --watch --preload=./scripts/preload.ts src/server.tsx",
-    "build": "bun run build:css && bun scripts/build.ts",
-    "build:css": "tailwindcss -i src/styles/global.css -o public/global.css --minify",
+    "build": "bun scripts/build.ts",
     "start": "NODE_ENV=production bun dist/server.js"
   },
   "dependencies": {

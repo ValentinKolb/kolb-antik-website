@@ -8,6 +8,10 @@ CLAUDE.md
 # Build output
 dist/
 _ssr/
+public/global.css
+public/files/
+public/fonts/
+public/tabler-icons-*
 
 # Bun (keep bun.lockb for reproducible builds)
 
