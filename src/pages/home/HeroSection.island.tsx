@@ -6,7 +6,6 @@ import type { Content } from "../../i18n";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 const rotationMs = 6000;
 const tickMs = 50;
-const fadeMs = 1600;
 
 type HeroSectionProps = {
   initialIndex: number;
@@ -45,46 +44,16 @@ const normalizeIndex = (index: number): number =>
 
 export default function HeroSection(props: HeroSectionProps): JSX.Element {
   const [index, setIndex] = createSignal(normalizeIndex(props.initialIndex));
-  const [incomingIndex, setIncomingIndex] = createSignal<number | undefined>();
-  const [fadeActive, setFadeActive] = createSignal(false);
   const [progress, setProgress] = createSignal(0);
   const activeItem = () => heroItems[index()] ?? heroItems[0];
-  const incomingItem = () => {
-    const incoming = incomingIndex();
-    return incoming === undefined ? undefined : heroItems[incoming];
-  };
 
   onMount(() => {
     let startedAt = Date.now();
-    let fadeFrame: number | undefined;
-    let fadeTimer: number | undefined;
 
     const advance = () => {
       startedAt = Date.now();
       setProgress(0);
-      setIncomingIndex((index() + 1) % heroItems.length);
-      setFadeActive(false);
-
-      if (fadeFrame !== undefined) {
-        window.cancelAnimationFrame(fadeFrame);
-      }
-
-      fadeFrame = window.requestAnimationFrame(() => setFadeActive(true));
-
-      if (fadeTimer !== undefined) {
-        window.clearTimeout(fadeTimer);
-      }
-
-      fadeTimer = window.setTimeout(() => {
-        const incoming = incomingIndex();
-
-        if (incoming !== undefined) {
-          setIndex(incoming);
-        }
-
-        setIncomingIndex(undefined);
-        setFadeActive(false);
-      }, fadeMs);
+      setIndex((index() + 1) % heroItems.length);
     };
 
     const timer = window.setInterval(() => {
@@ -100,14 +69,6 @@ export default function HeroSection(props: HeroSectionProps): JSX.Element {
 
     onCleanup(() => {
       window.clearInterval(timer);
-
-      if (fadeFrame !== undefined) {
-        window.cancelAnimationFrame(fadeFrame);
-      }
-
-      if (fadeTimer !== undefined) {
-        window.clearTimeout(fadeTimer);
-      }
     });
   });
 
@@ -159,12 +120,6 @@ export default function HeroSection(props: HeroSectionProps): JSX.Element {
             class="absolute inset-0 bg-cover bg-center"
             style={`background-image: url(${activeItem().image})`}
           />
-          {incomingItem() && (
-            <div
-              class={`absolute inset-0 bg-cover bg-center transition-opacity duration-[1600ms] ease-in-out ${fadeActive() ? "opacity-100" : "opacity-0"}`}
-              style={`background-image: url(${incomingItem()?.image})`}
-            />
-          )}
           <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
           <div class="absolute left-0 right-0 bottom-0 p-4 sm:p-5 lg:p-6">
             <p class="mb-2 inline-flex items-center gap-2 text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-white/65">
