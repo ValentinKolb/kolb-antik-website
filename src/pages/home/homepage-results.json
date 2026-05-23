@@ -1,0 +1,953 @@
+[
+  {
+    "title": "Emailschild um 1910",
+    "price": "€ 22.941",
+    "priceEuro": 22941,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo26/mo02/Q60E2/Q60E1209.jpg",
+        "localPath": "/public/imgs/homepage-candidates/64-Q60E2-Q60E1209.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/emailschild-22941.webp"
+  },
+  {
+    "title": "Armband mit Brillanten",
+    "price": "€ 20.550",
+    "priceEuro": 20550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo03/P77Z1/P77Z1002.jpg",
+        "localPath": "/public/imgs/homepage-candidates/15-P77Z1-P77Z1002.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/brillant-armband-20550.webp"
+  },
+  {
+    "title": "Bambi für Boris Becker",
+    "price": "€ 12.550",
+    "priceEuro": 12550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo06/C09T1/C09T1183.jpg",
+        "localPath": "/public/imgs/homepage-candidates/48-C09T1-C09T1183.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/bambi-becker-12550.webp",
+    "heroImage": "/public/imgs/homepage-candidates/48-C09T1-C09T1183.jpg"
+  },
+  {
+    "title": "James Rizzi, From New York to Heidelberg",
+    "price": "€ 15.820",
+    "priceEuro": 15820,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/h63c1/h63c1742.jpg",
+        "localPath": "/public/imgs/homepage-candidates/73-h63c1-h63c1742.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/h63c1/h63c1743.jpg",
+        "localPath": "/public/imgs/homepage-candidates/30-h63c1-h63c1743.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/james-rizzi-15820.webp"
+  },
+  {
+    "title": "Audemars Piguet Royal Oak",
+    "price": "€ 20.370",
+    "priceEuro": 20370,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/B59P1/B59P1003.jpg",
+        "localPath": "/public/imgs/homepage-candidates/65-B59P1-B59P1003.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/B59P1/B59P1004.jpg",
+        "localPath": "/public/imgs/homepage-candidates/55-B59P1-B59P1004.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/audemars-piguet-20370.webp"
+  },
+  {
+    "title": "Meissen Porzellan Affenkapelle",
+    "price": "€ 12.705",
+    "priceEuro": 12705,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo10/P53W1/P53W1015.jpg",
+        "localPath": "/public/imgs/homepage-candidates/08-P53W1-P53W1015.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/meissen-affenkapelle-12705.webp",
+    "heroImage": "/public/imgs/homepage-candidates/08-P53W1-P53W1015.jpg"
+  },
+  {
+    "title": "Gold Savonette Grand Complication",
+    "price": "€ 11.605",
+    "priceEuro": 11605,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo12/Q49K1/Q49K1028.jpg",
+        "localPath": "/public/imgs/homepage-candidates/34-Q49K1-Q49K1028.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/34-Q49K1-Q49K1028.jpg"
+  },
+  {
+    "title": "IWC Da Vinci Kurt Klaus",
+    "price": "€ 11.049",
+    "priceEuro": 11049,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo01/L61U1/L61U1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/66-L61U1-L61U1001.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo01/L61U1/L61U1002.jpg",
+        "localPath": "/public/imgs/homepage-candidates/19-L61U1-L61U1002.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/66-L61U1-L61U1001.jpg"
+  },
+  {
+    "title": "Saxophon Henri Selmer Paris",
+    "price": "€ 10.550",
+    "priceEuro": 10550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo03/P79N1/P79N1365.jpg",
+        "localPath": "/public/imgs/homepage-candidates/49-P79N1-P79N1365.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo03/P79N1/P79N1371.jpg",
+        "localPath": "/public/imgs/homepage-candidates/07-P79N1-P79N1371.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/49-P79N1-P79N1365.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/49-P79N1-P79N1365.jpg"
+  },
+  {
+    "title": "Cartier Panthère Armbanduhr",
+    "price": "€ 10.216",
+    "priceEuro": 10216,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo09/M92Y1/M92Y1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/35-M92Y1-M92Y1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/35-M92Y1-M92Y1001.jpg"
+  },
+  {
+    "title": "Cartier Santos Iced Out Armbanduhr",
+    "price": "€ 10.552",
+    "priceEuro": 10552,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo12/O02M1/O02M1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/67-O02M1-O02M1001.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo12/O02M1/O02M1004.jpg",
+        "localPath": "/public/imgs/homepage-candidates/18-O02M1-O02M1004.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/67-O02M1-O02M1001.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/67-O02M1-O02M1001.jpg"
+  },
+  {
+    "title": "Gemälde Leo Putz",
+    "price": "€ 10.160",
+    "priceEuro": 10160,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo02/B51M1/B51M1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/42-B51M1-B51M1001.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo02/B51M1/B51M1002.jpg",
+        "localPath": "/public/imgs/homepage-candidates/02-B51M1-B51M1002.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/gemaelde-leo-putz-10160.webp",
+    "heroImage": "/public/imgs/homepage-candidates/02-B51M1-B51M1002.jpg"
+  },
+  {
+    "title": "Kameraobjektiv Fujinon",
+    "price": "€ 10.100",
+    "priceEuro": 10100,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo12/B87W1/B87W1106.jpg",
+        "localPath": "/public/imgs/homepage-candidates/20-B87W1-B87W1106.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo12/B87W1/B87W1110.jpg",
+        "localPath": "/public/imgs/homepage-candidates/50-B87W1-B87W1110.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo12/B87W1/B87W1113.jpg",
+        "localPath": "/public/imgs/homepage-candidates/76-B87W1-B87W1113.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/20-B87W1-B87W1106.jpg"
+  },
+  {
+    "title": "Rozenburg Porzellan Vase",
+    "price": "€ 9.342",
+    "priceEuro": 9342,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo12/J41W2/J41W1567.jpg",
+        "localPath": "/public/imgs/homepage-candidates/36-J41W2-J41W1567.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo12/J41W2/J41W1560.jpg",
+        "localPath": "/public/imgs/homepage-candidates/01-J41W2-J41W1560.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/36-J41W2-J41W1567.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/36-J41W2-J41W1567.jpg"
+  },
+  {
+    "title": "Omega Speedmaster „Holy Grail“",
+    "price": "€ 9.067",
+    "priceEuro": 9067,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo10/C25X1/C25X1027.jpg",
+        "localPath": "/public/imgs/homepage-candidates/21-C25X1-C25X1027.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo10/C25X1/C25X1028.jpg",
+        "localPath": "/public/imgs/homepage-candidates/51-C25X1-C25X1028.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/21-C25X1-C25X1027.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/21-C25X1-C25X1027.jpg"
+  },
+  {
+    "title": "Art-Deco Silber Service",
+    "price": "€ 9.051",
+    "priceEuro": 9051,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo11/N99E1/N99E1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/75-N99E1-N99E1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/silber-service-9051.webp"
+  },
+  {
+    "title": "China Ming Bronze Gefäß",
+    "price": "€ 8.938",
+    "priceEuro": 8938,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo02/k86v1/k86v1703.jpg",
+        "localPath": "/public/imgs/homepage-candidates/22-k86v1-k86v1703.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/22-k86v1-k86v1703.jpg"
+  },
+  {
+    "title": "Vintage Emailschild Weine",
+    "price": "€ 8.561",
+    "priceEuro": 8561,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo05/H52L1/H52L1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/56-H52L1-H52L1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/56-H52L1-H52L1001.jpg"
+  },
+  {
+    "title": "Porzellan Dose, 18.Jh",
+    "price": "€ 8.150",
+    "priceEuro": 8150,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo12/J98E1/J98E1418.jpg",
+        "localPath": "/public/imgs/homepage-candidates/09-J98E1-J98E1418.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo12/J98E1/J98E1417.jpg",
+        "localPath": "/public/imgs/homepage-candidates/37-J98E1-J98E1417.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/09-J98E1-J98E1418.jpg"
+  },
+  {
+    "title": "Paar Barock Engel, 18.Jh",
+    "price": "€ 8.140",
+    "priceEuro": 8140,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/a88p1/a88p1391.jpg",
+        "localPath": "/public/imgs/homepage-candidates/69-a88p1-a88p1391.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/a88p1/a88p1400.jpg",
+        "localPath": "/public/imgs/homepage-candidates/23-a88p1-a88p1400.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/69-a88p1-a88p1391.jpg"
+  },
+  {
+    "title": "Vintage Kamera Arriflex",
+    "price": "€ 8.120",
+    "priceEuro": 8120,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo08/P52J1/P52J1184.jpg",
+        "localPath": "/public/imgs/homepage-candidates/52-P52J1-P52J1184.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo08/P52J1/P52J1186.jpg",
+        "localPath": "/public/imgs/homepage-candidates/10-P52J1-P52J1186.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/52-P52J1-P52J1184.jpg"
+  },
+  {
+    "title": "Rokoko Gemälde Madame Pompadour",
+    "price": "€ 7.271",
+    "priceEuro": 7271,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo11/B08C1/B08C1119.jpg",
+        "localPath": "/public/imgs/homepage-candidates/38-B08C1-B08C1119.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-selected/rokoko-pompadour-7271.webp"
+  },
+  {
+    "title": "Van Cleef & Arpels Brosche Lion ébouriffé",
+    "price": "€ 7.250",
+    "priceEuro": 7250,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo04/L78V1/L78V1027.jpg",
+        "localPath": "/public/imgs/homepage-candidates/68-L78V1-L78V1027.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo04/L78V1/L78V1030.jpg",
+        "localPath": "/public/imgs/homepage-candidates/77-L78V1-L78V1030.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/68-L78V1-L78V1027.jpg"
+  },
+  {
+    "title": "Van Cleef & Arpels Lucky Alhambra Collier",
+    "price": "€ 12.138",
+    "priceEuro": 12138,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo12/N14O2/N1401001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/43-N14O2-N1401001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/van-cleef-collier-12138.webp"
+  },
+  {
+    "title": "Saxophon Henri Selmer Paris",
+    "price": "€ 7.100",
+    "priceEuro": 7100,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo08/h78d2/h78d1482.jpg",
+        "localPath": "/public/imgs/homepage-candidates/03-h78d2-h78d1482.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/03-h78d2-h78d1482.jpg"
+  },
+  {
+    "title": "Reiseuhr Silber und Email Fabergé",
+    "price": "€ 6.827",
+    "priceEuro": 6827,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/M59A1/M59A1196.jpg",
+        "localPath": "/public/imgs/homepage-candidates/24-M59A1-M59A1196.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/24-M59A1-M59A1196.jpg"
+  },
+  {
+    "title": "Vintage Leica Kamera",
+    "price": "€ 6.800",
+    "priceEuro": 6800,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo06/a94b2/a94b1405.jpg",
+        "localPath": "/public/imgs/homepage-candidates/57-a94b2-a94b1405.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo06/a94b2/a94b1406.jpg",
+        "localPath": "/public/imgs/homepage-candidates/78-a94b2-a94b1406.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo06/a94b2/a94b1407.jpg",
+        "localPath": "/public/imgs/homepage-candidates/39-a94b2-a94b1407.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/leica-kamera-horizontal-6800.webp"
+  },
+  {
+    "title": "Richard Jacob Weißgerber Gitarre",
+    "price": "€ 6.550",
+    "priceEuro": 6550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo09/Q34H2/Q34H1717.jpg",
+        "localPath": "/public/imgs/homepage-candidates/Q34H2-Q34H1717.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/Q34H2-Q34H1717.jpg"
+  },
+  {
+    "title": "Barock Portrait einer Dame",
+    "price": "€ 6.430",
+    "priceEuro": 6430,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo08/A94Y1/A94Y1183.jpg",
+        "localPath": "/public/imgs/homepage-candidates/04-A94Y1-A94Y1183.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo08/A94Y1/A94Y1184.jpg",
+        "localPath": "/public/imgs/homepage-candidates/25-A94Y1-A94Y1184.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-selected/barock-portrait-dame-6430.webp",
+    "heroImage": "/public/imgs/homepage-candidates/25-A94Y1-A94Y1184.jpg"
+  },
+  {
+    "title": "Hermann Pleuer Gemälde Bahnhof Stuttgart",
+    "price": "€ 6.250",
+    "priceEuro": 6250,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo05/L81L1/L81L1014.jpg",
+        "localPath": "/public/imgs/homepage-candidates/53-L81L1-L81L1014.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo05/L81L1/L81L1015.jpg",
+        "localPath": "/public/imgs/homepage-candidates/70-L81L1-L81L1015.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-selected/hermann-pleuer-bahnhof-stuttgart-6250.webp",
+    "heroImage": "/public/imgs/homepage-candidates/70-L81L1-L81L1015.jpg"
+  },
+  {
+    "title": "Renaissance Silber Salbgefäß Saragossa",
+    "price": "€ 6.150",
+    "priceEuro": 6150,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo01/N02ZX/N02Z1014.jpg",
+        "localPath": "/public/imgs/homepage-candidates/31-N02ZX-N02Z1014.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo01/N02ZX/N02Z1015.jpg",
+        "localPath": "/public/imgs/homepage-candidates/58-N02ZX-N02Z1015.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/silber-salbgefaess-6150.webp"
+  },
+  {
+    "title": "Altmeister Gemälde 16.Jh",
+    "price": "€ 5.728",
+    "priceEuro": 5728,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo06/M75O1/M75O1105.jpg",
+        "localPath": "/public/imgs/homepage-candidates/11-M75O1-M75O1105.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/11-M75O1-M75O1105.jpg"
+  },
+  {
+    "title": "2 Silber Münzen China",
+    "price": "€ 5.708",
+    "priceEuro": 5708,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo03/H30P1/H30P1118.jpg",
+        "localPath": "/public/imgs/homepage-candidates/44-H30P1-H30P1118.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/44-H30P1-H30P1118.jpg"
+  },
+  {
+    "title": "Mughal Armreif Indien",
+    "price": "€ 5.678",
+    "priceEuro": 5678,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo07/L96R1/L96R1053.jpg",
+        "localPath": "/public/imgs/homepage-candidates/71-L96R1-L96R1053.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo07/L96R1/L96R1062.jpg",
+        "localPath": "/public/imgs/homepage-candidates/26-L96R1-L96R1062.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/71-L96R1-L96R1053.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/71-L96R1-L96R1053.jpg"
+  },
+  {
+    "title": "Barockkommode Frankreich 18.Jh",
+    "price": "€ 5.630",
+    "priceEuro": 5630,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo08/J49C1/J49C1132.jpg",
+        "localPath": "/public/imgs/homepage-candidates/54-J49C1-J49C1132.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/barockkommode-5630.webp"
+  },
+  {
+    "title": "Porzellan Vase China",
+    "price": "€ 5.551",
+    "priceEuro": 5551,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo01/B47T1/B47T1354.jpg",
+        "localPath": "/public/imgs/homepage-candidates/12-B47T1-B47T1354.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/12-B47T1-B47T1354.jpg"
+  },
+  {
+    "title": "Gouache Ausbruch des Vesuv 1816",
+    "price": "€ 5.550",
+    "priceEuro": 5550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo06/h76a1/h76a1040.jpg",
+        "localPath": "/public/imgs/homepage-candidates/40-h76a1-h76a1040.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo06/h76a1/h76a1041.jpg",
+        "localPath": "/public/imgs/homepage-candidates/59-h76a1-h76a1041.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-selected/gouache-vesuv-5550.webp",
+    "heroImage": "/public/imgs/homepage-candidates/59-h76a1-h76a1041.jpg"
+  },
+  {
+    "title": "Gemälde Jamini Prokash Gangooly",
+    "price": "€ 5.550",
+    "priceEuro": 5550,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo10/H83D1/H83D1340.jpg",
+        "localPath": "/public/imgs/homepage-candidates/16-H83D1-H83D1340.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/gemaelde-sonnenuntergang-5550.webp",
+    "heroImage": "/public/imgs/homepage-candidates/16-H83D1-H83D1340.jpg"
+  },
+  {
+    "title": "Miguel Berrocal Bronze",
+    "price": "€ 5.154",
+    "priceEuro": 5154,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/P27B1/P27B1042.jpg",
+        "localPath": "/public/imgs/homepage-candidates/45-P27B1-P27B1042.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/45-P27B1-P27B1042.jpg"
+  },
+  {
+    "title": "Andy Warhol Farbserigraphie",
+    "price": "€ 5.050",
+    "priceEuro": 5050,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo26/mo01/Q49U2/Q49U1625.jpg",
+        "localPath": "/public/imgs/homepage-candidates/05-Q49U2-Q49U1625.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/05-Q49U2-Q49U1625.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/05-Q49U2-Q49U1625.jpg"
+  },
+  {
+    "title": "Bronzeskulptur Igor Mitoraj",
+    "price": "€ 4.898",
+    "priceEuro": 4898,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo21/mo11/a80m1/a80m1041.jpg",
+        "localPath": "/public/imgs/homepage-candidates/27-a80m1-a80m1041.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/bronze-mitoraj-4898.webp",
+    "heroImage": "/public/imgs/homepage-candidates/27-a80m1-a80m1041.jpg"
+  },
+  {
+    "title": "James Rizzi A Village for the World",
+    "price": "€ 4.898",
+    "priceEuro": 4898,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/h63a1/h63a1027.jpg",
+        "localPath": "/public/imgs/homepage-candidates/60-h63a1-h63a1027.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo04/h63a1/h63a1028.jpg",
+        "localPath": "/public/imgs/homepage-candidates/79-h63a1-h63a1028.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/60-h63a1-h63a1027.jpg"
+  },
+  {
+    "title": "Rokoko Gemälde Umkreis Jacopo Amigoni",
+    "price": "€ 4.810",
+    "priceEuro": 4810,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo01/a84b1/a84b1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/41-a84b1-a84b1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-selected/rokoko-amigoni-4810.webp"
+  },
+  {
+    "title": "Renaissance Frauenbüste, Flandern / Brabant",
+    "price": "€ 4.810",
+    "priceEuro": 4810,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo07/J46W1/J46W1105.jpg",
+        "localPath": "/public/imgs/homepage-candidates/06-J46W1-J46W1105.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/06-J46W1-J46W1105.jpg"
+  },
+  {
+    "title": "Rolex Sea- Dweller 16660 Triple Six",
+    "price": "€ 8.251",
+    "priceEuro": 8251,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo06/C10H1/C10H1144.jpg",
+        "localPath": "/public/imgs/homepage-candidates/28-C10H1-C10H1144.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo06/C10H1/C10H1146.jpg",
+        "localPath": "/public/imgs/homepage-candidates/46-C10H1-C10H1146.jpg"
+      }
+    ],
+    "heroCandidate": true,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/28-C10H1-C10H1144.jpg",
+    "heroImage": "/public/imgs/homepage-candidates/46-C10H1-C10H1146.jpg"
+  },
+  {
+    "title": "13 Lot Silber Deckelhumpen dat.1797 Kostroma",
+    "price": "€ 4.610",
+    "priceEuro": 4610,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo25/mo08/N77X1/N77X1053.jpg",
+        "localPath": "/public/imgs/homepage-candidates/74-N77X1-N77X1053.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/74-N77X1-N77X1053.jpg"
+  },
+  {
+    "title": "Meissen Porzellan Prunk-Kaffeeservice",
+    "price": "€ 4.577",
+    "priceEuro": 4577,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo03/P11K1/P11K1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/32-P11K1-P11K1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": true,
+    "displayImage": "/public/imgs/homepage-selected/meissen-kaffeeservice-4577.webp"
+  },
+  {
+    "title": "Renaissance Türmchenuhr, 17.Jh",
+    "price": "€ 4.570",
+    "priceEuro": 4570,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/M61Z1/M61Z1067.jpg",
+        "localPath": "/public/imgs/homepage-candidates/61-M61Z1-M61Z1067.jpg"
+      },
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/M61Z1/M61Z1066.jpg",
+        "localPath": "/public/imgs/homepage-candidates/13-M61Z1-M61Z1066.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/61-M61Z1-M61Z1067.jpg"
+  },
+  {
+    "title": "Tahiti Perlen Kette",
+    "price": "€ 4.565",
+    "priceEuro": 4565,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo03/M52A1/M52A1053.jpg",
+        "localPath": "/public/imgs/homepage-candidates/47-M52A1-M52A1053.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/47-M52A1-M52A1053.jpg"
+  },
+  {
+    "title": "Gemälde Christian Peschke",
+    "price": "€ 4.511",
+    "priceEuro": 4511,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo23/mo08/M06N1/M06N1417.jpg",
+        "localPath": "/public/imgs/homepage-candidates/72-M06N1-M06N1417.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/72-M06N1-M06N1417.jpg"
+  },
+  {
+    "title": "Renaissance Kabinett 17.Jh",
+    "price": "€ 4.510",
+    "priceEuro": 4510,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo02/M44Z1/M44Z1002.jpg",
+        "localPath": "/public/imgs/homepage-candidates/29-M44Z1-M44Z1002.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/29-M44Z1-M44Z1002.jpg"
+  },
+  {
+    "title": "Gitarre Johann Anton Stauffer Wien",
+    "price": "€ 4.510",
+    "priceEuro": 4510,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo11/N12G1/N12G1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/62-N12G1-N12G1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/62-N12G1-N12G1001.jpg"
+  },
+  {
+    "title": "Loetz Glas Vase Hans Bolek um 1915",
+    "price": "€ 4.310",
+    "priceEuro": 4310,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo22/mo03/k97d1/k97d1001.jpg",
+        "localPath": "/public/imgs/homepage-candidates/14-k97d1-k97d1001.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/14-k97d1-k97d1001.jpg"
+  },
+  {
+    "title": "Märklin Lampe für Modelleisenbahn um 1910",
+    "price": "€ 4.210",
+    "priceEuro": 4210,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo01/M41X1/M41X1041.jpg",
+        "localPath": "/public/imgs/homepage-candidates/33-M41X1-M41X1041.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/33-M41X1-M41X1041.jpg"
+  },
+  {
+    "title": "Stobwasser Lackdose 19.Jh",
+    "price": "€ 4.133",
+    "priceEuro": 4133,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo04/J90T1/J90T1014.jpg",
+        "localPath": "/public/imgs/homepage-candidates/63-J90T1-J90T1014.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/63-J90T1-J90T1014.jpg"
+  },
+  {
+    "title": "Antike Krippenfiguren aus dem Erzgebirge",
+    "price": "€ 4.010",
+    "priceEuro": 4010,
+    "source": "Fotos für Homepage.docx",
+    "images": [
+      {
+        "originalUrl": "https://d292rtn19fz4pq.cloudfront.net/fo24/mo02/P07Y1/P07Y1326.jpg",
+        "localPath": "/public/imgs/homepage-candidates/17-P07Y1-P07Y1326.jpg"
+      }
+    ],
+    "heroCandidate": false,
+    "resultCandidate": false,
+    "displayImage": "/public/imgs/homepage-candidates/17-P07Y1-P07Y1326.jpg"
+  }
+]

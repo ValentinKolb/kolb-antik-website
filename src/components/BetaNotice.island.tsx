@@ -1,6 +1,7 @@
 import { onMount } from "solid-js";
+import type { Content } from "../i18n";
 
-export default function BetaNotice() {
+export default function BetaNotice(props: { content: Content["common"]["beta"] }) {
   let dialogRef: HTMLDialogElement | undefined;
 
   onMount(() => {
@@ -21,20 +22,19 @@ export default function BetaNotice() {
     >
       <div class="flex flex-col gap-5 text-center">
         <p class="text-xs font-semibold tracking-widest text-zinc-400">
-          INTERNE BETA
+          {props.content.eyebrow}
         </p>
         <h2 class="font-serif text-2xl font-normal text-zinc-900">
-          Hinweis
+          {props.content.title}
         </h2>
         <p class="text-sm text-zinc-500 leading-relaxed">
-          Diese Website befindet sich in aktiver Entwicklung. Alle Inhalte,
-          Funktionen und Darstellungen sind vorläufig und nicht verbindlich.
+          {props.content.text}
         </p>
         <button
           onClick={accept}
           class="text-sm font-semibold text-white bg-zinc-900 px-6 py-3 rounded hover:bg-zinc-800 transition-colors"
         >
-          Verstanden
+          {props.content.button}
         </button>
       </div>
     </dialog>

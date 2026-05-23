@@ -1,0 +1,527 @@
+{
+  "common": {
+    "brand": "KOLB ANTIK",
+    "nav": {
+      "howItWorks": "How it works",
+      "about": "About us",
+      "contact": "Contact",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu"
+    },
+    "footer": {
+      "faq": "FAQ",
+      "imprint": "Legal notice",
+      "privacy": "Privacy",
+      "copyright": "Kolb Antik GmbH, Ulm",
+      "german": "Deutsch",
+      "english": "English"
+    },
+    "beta": {
+      "eyebrow": "INTERNAL BETA",
+      "title": "Note",
+      "text": "This website is currently in active development. All content, functions and representations are preliminary and non-binding.",
+      "button": "Understood"
+    },
+    "buttons": {
+      "contact": "Get in touch",
+      "requestNow": "Send an enquiry",
+      "requestContact": "Contact us now"
+    },
+    "labels": {
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Kolb Antik GmbH",
+        "description": "Art and antiques since 1984."
+      },
+      "hero": {
+        "eyebrow": "Since 1984 · Art and antiques",
+        "title": "We sell your art and antiques to more than 50,000 collectors worldwide.",
+        "text": "Professionally photographed, art-historically assessed and presented to an international buying audience.",
+        "primary": "Request an appraisal",
+        "secondary": "How it works",
+        "priceLabel": "Hammer price"
+      },
+      "process": {
+        "eyebrow": "PROCESS",
+        "title": "Sell in three clear steps",
+        "link": "More info",
+        "steps": [
+          {
+            "num": "01",
+            "title": "Get in touch",
+            "text": "Send photos by email, phone or WhatsApp. Quick and uncomplicated."
+          },
+          {
+            "num": "02",
+            "title": "Valuation & advice",
+            "text": "A free assessment by our art historians. Transparent and fair."
+          },
+          {
+            "num": "03",
+            "title": "Sale & payout",
+            "text": "Professional photography, description and worldwide marketing."
+          }
+        ]
+      },
+      "why": {
+        "eyebrow": "WHY KOLB ANTIK",
+        "title": "A powerful stage for your collectables",
+        "paragraphs": [
+          "With more than 50,000 followers and up to 15,000 active listings each month, we offer a reach that no individual dealer can create alone. Your collectables become visible internationally — from Ulm to Tokyo.",
+          "Art-historical assessment, professional photography, secure storage and daily shipping — all under one roof."
+        ]
+      },
+      "stats": [
+        { "value": "1984", "label": "40+ years of experience" },
+        { "value": "50,000+", "label": "eBay followers" },
+        { "value": "99.9%", "label": "Positive feedback" },
+        { "value": "15,000+", "label": "Collectables marketed monthly" }
+      ],
+      "results": {
+        "eyebrow": "AUCTION RESULTS",
+        "title": "Selected sales",
+        "next": "Show more",
+        "soldFor": "Sold for"
+      },
+      "cta": {
+        "eyebrow": "CONTACT",
+        "title": "Do you have collectables you would like to sell?",
+        "text": "Contact us for a free, non-binding assessment. We will get back to you within 48 hours.",
+        "button": "Contact us now"
+      },
+      "whatsapp": {
+        "ariaLabel": "Contact Kolb Antik on WhatsApp",
+        "text": "Start with WhatsApp"
+      }
+    },
+    "about": {
+      "meta": {
+        "title": "About us — Kolb Antik · In Ulm since 1984",
+        "description": "Get to know Kolb Antik: in Ulm since 1984, 50 employees, art historians, in-house photography and logistics."
+      },
+      "header": {
+        "eyebrow": "About Kolb Antik",
+        "title": "Since 1984, we have connected collectors with the collectables they are looking for.",
+        "text": "Art and antiques since 1984 — from Ulm to the world. 50 employees, in-house photography, art-historical assessment and daily shipping."
+      },
+      "history": {
+        "eyebrow": "OUR HISTORY",
+        "title": "From a workshop to an art and antiques dealer on eBay",
+        "image": "/public/imgs/homepage-candidates/30-h63c1-h63c1743.jpg",
+        "imageAlt": "James Rizzi artwork From New York to Heidelberg",
+        "paragraphs": [
+          "Wolfgang Kolb began dealing in antiques in 1984. What started as a one-man business developed over four decades into an art and antiques dealer with an international buying audience.",
+          "The turning point came in the early 2000s: as one of the first antiques dealers in Germany, we recognised the potential of eBay. Under the username “Kurprinz”, we built an international audience — today with more than 50,000 followers.",
+          "Today, a team of art historians, photographers and logistics specialists works to market more than 15,000 collectables per month professionally — from Ulm to the world."
+        ]
+      },
+      "expertise": {
+        "eyebrow": "OUR TEAM",
+        "title": "50 specialists under one roof",
+        "departments": [
+          {
+            "icon": "ti-book",
+            "title": "Art history",
+            "text": "Our art historians assess and describe each collectable with specialist knowledge — from period to provenance."
+          },
+          {
+            "icon": "ti-camera",
+            "title": "Photography",
+            "text": "Professional product photography in our own studio. Every piece is presented in the right light."
+          },
+          {
+            "icon": "ti-truck",
+            "title": "Logistics",
+            "text": "Secure storage, careful packaging and daily worldwide shipping — all under one roof."
+          }
+        ]
+      },
+      "infrastructure": {
+        "eyebrow": "INFRASTRUCTURE",
+        "title": "Everything from one source",
+        "items": [
+          {
+            "title": "In-house photo studio",
+            "text": "Professional product photography with calibrated colours, multiple perspectives and detail shots — for strong presentation on eBay.",
+            "img": "/public/imgs/homepage-candidates/32-P11K1-P11K1001.jpg",
+            "alt": "Meissen porcelain ornate coffee service"
+          },
+          {
+            "title": "Secure storage",
+            "text": "More than 1,000 m² of storage space with inventory management and secure safekeeping of your collectables until sale.",
+            "img": "/public/imgs/homepage-candidates/71-L96R1-L96R1053.jpg",
+            "alt": "Mughal bracelet from India as a professionally photographed collectable"
+          },
+          {
+            "title": "Daily shipping",
+            "text": "Professional packaging and daily worldwide shipping. Collection service throughout Germany and the EU for larger collections.",
+            "img": "/public/imgs/homepage-candidates/08-P53W1-P53W1015.jpg",
+            "alt": "Fragile Meissen porcelain monkey orchestra figures"
+          }
+        ]
+      },
+      "awards": {
+        "eyebrow": "PRESS & AWARDS",
+        "title": "Press reports on Kolb Antik",
+        "text": "A selection of press coverage, archive material and awards — from regional portraits to the eBay Award.",
+        "awardAlt": "Wolfgang Kolb at the eBay Awards 2023",
+        "awardCaption": "eBay Awards 2023: Kolb Antik was honoured by eBay Germany.",
+        "archive": "Archive",
+        "archiveTitle": "More reports in the press archive",
+        "archiveText": "The SWR material is available internally as screenshots and link notes. Since the public link is not reliably reachable, it is not linked here.",
+        "archiveNotice": "Internal archive reference available",
+        "pressItems": [
+          {
+            "source": "Frankfurter Allgemeine Zeitung",
+            "date": "August 2023",
+            "title": "Seine Kunst ist der Handel mit Krempel",
+            "text": "A visit to Kolb Antik in Neu-Ulm and a look at the organisation behind thousands of online auctions.",
+            "href": "/public/press/faz-seine-kunst-ist-der-handel-mit-krempel.pdf",
+            "action": "View PDF"
+          },
+          {
+            "source": "Neu-Ulmer Zeitung",
+            "date": "February 2024",
+            "title": "Ein Weltstar unter den Auktionshäusern",
+            "text": "A portrait of Wolfgang Kolb and the development of a digital art and antiques business with international reach.",
+            "href": "/public/press/neu-ulmer-zeitung-ein-weltstar-unter-den-auktionshaeusern.pdf",
+            "action": "View PDF"
+          },
+          {
+            "source": "BUNTE",
+            "date": "July 2025",
+            "title": "Becker-Schätze unter dem Hammer",
+            "text": "Coverage of the auction of memorabilia from Boris Becker’s career through Kolb Antik.",
+            "href": "/public/press/bunte-boris-becker-auktion.pdf",
+            "action": "View PDF"
+          },
+          {
+            "source": "SWR Aktuell",
+            "date": "October 2023",
+            "title": "Online auction house from Neu-Ulm sells worldwide",
+            "text": "SWR reported on antiques, jewellery, furniture and curiosities from Neu-Ulm finding buyers around the world."
+          },
+          {
+            "source": "eBay for Business",
+            "date": "September 2022",
+            "title": "eBay sellers in conversation: Wolfgang Kolb",
+            "text": "A podcast conversation about the path from a local antiques business to one of the defining eBay dealers in art and antiques.",
+            "href": "https://ebay.podigee.io/25-ebay-verkauferinnen-im-gesprach-wolfgang-kolb",
+            "action": "Open podcast"
+          },
+          {
+            "source": "eBay",
+            "date": "Top seller",
+            "title": "Kurprinz photo wall",
+            "text": "eBay material on Kolb Antik as a top seller and the development of the Kurprinz account.",
+            "href": "/public/press/ebay-top-seller-kurprinz.pdf",
+            "action": "View PDF"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Get to know us",
+        "text": "We look forward to hearing from you — whether you have individual collectables or an entire collection.",
+        "button": "Get in touch"
+      }
+    },
+    "howItWorks": {
+      "meta": {
+        "title": "How it works — Selling antiques with Kolb Antik",
+        "description": "Sell antiques in 5 steps: contact, valuation, consignment, photography, sale. Free, non-binding, with payout within 22 working days."
+      },
+      "header": {
+        "eyebrow": "How it works",
+        "title": "From first contact to payout",
+        "text": "Our process is transparent and uncomplicated. We take care of everything — you only need to contact us once."
+      },
+      "detail": {
+        "eyebrow": "THE PROCESS IN DETAIL",
+        "title": "Five steps to a successful sale",
+        "steps": [
+          {
+            "num": "01",
+            "title": "Get in touch",
+            "text": "Send us photos and a brief description of your collectables — by email, phone or WhatsApp. A personal appointment on site is also possible.",
+            "detail": "We will get back to you within 48 hours."
+          },
+          {
+            "num": "02",
+            "title": "Valuation & advice",
+            "text": "Our art historians assess your collectables and give you a realistic price range. The professional assessment is free and non-binding.",
+            "detail": "Professional, transparent and without obligation."
+          },
+          {
+            "num": "03",
+            "title": "Consignment",
+            "text": "Bring your collectables to us or use our collection service — throughout Germany and within the EU.",
+            "detail": "All collectables are inventoried and securely documented."
+          },
+          {
+            "num": "04",
+            "title": "Professional preparation",
+            "text": "Every piece is professionally photographed in our studio, described from an art-historical perspective and listed on eBay — visible to more than 50,000 followers.",
+            "detail": "Multiple perspectives, detail shots, calibrated colours."
+          },
+          {
+            "num": "05",
+            "title": "Sale & payout",
+            "text": "We handle packaging, shipping and customer service. You receive your proceeds within 22 working days — with a detailed statement.",
+            "detail": "Transparent terms, no hidden costs."
+          }
+        ]
+      },
+      "categories": {
+        "eyebrow": "WHAT WE SELL",
+        "title": "From everyday antiques to masterpieces",
+        "text": "Not sure whether your piece is suitable? Contact us — we will give you a professional assessment.",
+        "items": [
+          { "icon": "ti-palette", "label": "Paintings & prints" },
+          { "icon": "ti-cup", "label": "Porcelain & ceramics" },
+          { "icon": "ti-diamond", "label": "Silver & metal collectables" },
+          { "icon": "ti-armchair", "label": "Furniture & interiors" },
+          { "icon": "ti-rings", "label": "Jewellery & watches" },
+          { "icon": "ti-yin-yang", "label": "Asian art" },
+          { "icon": "ti-book", "label": "Books & autographs" },
+          { "icon": "ti-puzzle", "label": "Collections & estates" }
+        ]
+      },
+      "conditions": {
+        "eyebrow": "TERMS",
+        "title": "Fair and transparent",
+        "items": [
+          {
+            "title": "Commission",
+            "text": "Clear terms — the higher the value of your collectables, the lower our commission."
+          },
+          {
+            "title": "At any scale",
+            "text": "Whether a single collectable or an entire collection — we handle every consignment."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready for the first step?",
+        "text": "Contact us for a free and non-binding initial assessment of your collectables.",
+        "button": "Send an enquiry"
+      }
+    },
+    "faq": {
+      "meta": {
+        "title": "FAQ — Frequently asked questions · Kolb Antik",
+        "description": "Answers to the most common questions about selling antiques with Kolb Antik: process, costs, payout and more."
+      },
+      "header": {
+        "eyebrow": "FAQ",
+        "title": "Frequently asked questions",
+        "text": "Here you will find answers to the most important questions about selling your art and antiques with Kolb Antik."
+      },
+      "items": [
+        {
+          "q": "How long does the whole process take?",
+          "a": "From consignment to sale, the process usually takes around 14 days. Larger collections may take a little longer — we will keep you informed transparently about the schedule."
+        },
+        {
+          "q": "When will I receive my money?",
+          "a": "Payout is made within 22 working days after the auction ends. You receive a detailed statement for all sold collectables."
+        },
+        {
+          "q": "Do you also buy directly?",
+          "a": "Yes, we are happy to buy directly, in cash and at any scale. Simply contact us for a non-binding offer."
+        },
+        {
+          "q": "Why do you work on eBay without a minimum selling price?",
+          "a": "Auctions without a reserve generally attract more bidders and create more competition. This usually leads to better final prices than auctions with a high starting price. For collectables where a limit should be set, we offer online art auctions through international auction platforms."
+        },
+        {
+          "q": "Do you sell only through eBay?",
+          "aBeforeLink": "No. eBay remains our most important sales channel because it gives us access to a large international buying audience. For selected art and collectables, we additionally use ",
+          "linkText": "Lottissimo",
+          "aAfterLink": " and other suitable auction platforms."
+        },
+        {
+          "q": "Do you offer a collection service?",
+          "a": "Yes, for larger collections or bulky collectables we offer a collection service within Germany and the EU."
+        },
+        {
+          "q": "Which collectables do you accept?",
+          "a": "We accept art, antiques, collectables, jewellery, silver, porcelain, furniture, entire collections and estates. If you are unsure, please contact us — we will give you a professional assessment."
+        },
+        {
+          "q": "Is the initial valuation free?",
+          "a": "Yes, the initial valuation is free and non-binding. You can then decide at your own pace whether you would like to work with us."
+        }
+      ],
+      "cta": {
+        "title": "Any questions left?",
+        "text": "We are happy to advise you personally. Contact us for a free initial assessment.",
+        "button": "Get in touch"
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact — Kolb Antik · Sell antiques",
+        "description": "Contact Kolb Antik for a free initial assessment of your art and antiques. By phone, email, WhatsApp or in person in Ulm."
+      },
+      "header": {
+        "eyebrow": "Contact",
+        "title": "Talk to us",
+        "text": "Whether you have questions, need a valuation or want to consign collectables — we are available through several channels and will respond within 48 hours."
+      },
+      "methods": [
+        {
+          "icon": "ti-phone",
+          "title": "Phone",
+          "value": "+49 731 850754",
+          "subtitle": "Mon–Fri, 8–12 & 13–16",
+          "href": "tel:+49731850754"
+        },
+        {
+          "icon": "ti-mail",
+          "title": "Email",
+          "value": "kurprinz@kolb-antik.de",
+          "subtitle": "Reply within 2 working days",
+          "href": "mailto:kurprinz@kolb-antik.de"
+        },
+        {
+          "icon": "ti-brand-whatsapp",
+          "title": "WhatsApp",
+          "value": "+49 731 123 456 78",
+          "subtitle": "Ideal for photos",
+          "href": "https://wa.me/497311234567"
+        },
+        {
+          "icon": "ti-map-pin",
+          "title": "On site",
+          "value": "Finninger Str., Neu-Ulm",
+          "subtitle": "By appointment",
+          "href": "https://maps.google.com/?q=Finningerstraße+56+89073+Neu+Ulm"
+        }
+      ],
+      "form": {
+        "eyebrow": "WRITE TO US",
+        "title": "Contact form",
+        "subject": "Enquiry via the website",
+        "fields": {
+          "name": "Name *",
+          "namePlaceholder": "Your name",
+          "email": "Email *",
+          "emailPlaceholder": "your@email.com",
+          "phone": "Phone",
+          "optional": "(optional)",
+          "phonePlaceholder": "If you would like us to call you back",
+          "customerType": "I am",
+          "private": "Private individual",
+          "dealer": "Dealer / gallery",
+          "message": "Message *",
+          "messagePlaceholder": "Briefly describe your collectables or ask your question...",
+          "privacyBefore": "I consent to the processing of my data in accordance with the ",
+          "privacyLink": "privacy policy",
+          "privacyAfter": ". *",
+          "submit": "Prepare email"
+        }
+      },
+      "location": {
+        "eyebrow": "LOCATION",
+        "title": "Kolb Antik GmbH",
+        "country": "Germany",
+        "hoursLabel": "Opening hours:",
+        "hours": "Mon–Fri, 8–12 & 13–16",
+        "visitsLabel": "Visits:",
+        "visits": "By appointment",
+        "route": "Get directions",
+        "mapAlt": "Location of Kolb Antik GmbH, Neu-Ulm"
+      }
+    },
+    "imprint": {
+      "meta": {
+        "title": "Legal notice — Kolb Antik GmbH",
+        "description": "Legal notice of Kolb Antik GmbH, Ulm."
+      },
+      "eyebrow": "Legal",
+      "title": "Legal notice",
+      "sections": [
+        {
+          "title": "Information according to § 5 TMG",
+          "lines": ["Kolb Antik GmbH", "Maienweg 22", "89081 Ulm", "Germany"]
+        },
+        {
+          "kind": "box",
+          "eyebrow": "WAREHOUSE, SHIPMENTS & COLLECTIONS",
+          "lines": ["Please send all shipments, consignments and collections to our warehouse address:", "Kolb Antik GmbH", "Finninger Straße 56", "89231 Neu-Ulm"]
+        },
+        {
+          "title": "Contact",
+          "contact": true
+        },
+        {
+          "title": "Managing director authorised to represent the company",
+          "lines": ["Wolfgang Kolb"]
+        },
+        {
+          "title": "Commercial register",
+          "lines": ["Entry in the commercial register", "Register court: Amtsgericht Ulm", "Register number: HRB 741739"]
+        },
+        {
+          "title": "VAT identification number",
+          "lines": ["VAT identification number according to § 27a German VAT Act:", "DE344235170"]
+        },
+        {
+          "title": "Disclaimer",
+          "paragraphs": [
+            "All information on this website — especially regarding prices, services, processes and terms — is non-binding and subject to change. Errors and changes are expressly reserved.",
+            "The contents of this website do not constitute a binding offer. Binding agreements are made exclusively by individual written arrangement."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "meta": {
+        "title": "Privacy policy — Kolb Antik GmbH",
+        "description": "Privacy policy of Kolb Antik GmbH. Information about the processing of personal data."
+      },
+      "eyebrow": "Legal",
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "title": "1. Controller",
+          "paragraphs": ["Responsible for data processing on this website:"],
+          "lines": ["Kolb Antik GmbH", "Maienweg 22, 89081 Ulm"],
+          "email": true
+        },
+        {
+          "title": "2. General information",
+          "paragraphs": [
+            "We take the protection of your personal data seriously. This website uses no cookies, no tracking tools and no external services (such as Google Analytics, Google Fonts or social media plugins).",
+            "All content — including fonts and icons — is served directly from our own server. No data is transferred to third parties when you visit our website."
+          ]
+        },
+        {
+          "title": "3. Hosting and server log files",
+          "paragraphs": ["When you visit our website, technical information is automatically stored in server log files:"],
+          "list": ["IP address (anonymised)", "Date and time of access", "Page accessed", "Browser type and operating system"],
+          "afterList": "This data cannot be assigned to specific persons and is used exclusively to ensure operation and to troubleshoot errors. The legal basis is Art. 6(1)(f) GDPR (legitimate interest)."
+        },
+        {
+          "title": "4. Contact form and email contact",
+          "paragraphs": [
+            "If you contact us via the contact form, by email, phone or WhatsApp, the data you provide (e.g. name, email address, phone number, message) will be stored and used by us to process your enquiry.",
+            "The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR (legitimate interest in responding to your enquiry).",
+            "Your data will not be passed on to third parties and will be deleted once the enquiry has been fully processed — unless statutory retention periods prevent deletion."
+          ]
+        },
+        {
+          "title": "5. Your rights",
+          "paragraphs": ["You have the right at any time to:"],
+          "list": ["Access your stored data (Art. 15 GDPR)", "Rectification of inaccurate data (Art. 16 GDPR)", "Erasure of your data (Art. 17 GDPR)", "Restriction of processing (Art. 18 GDPR)", "Object to processing (Art. 21 GDPR)", "Data portability (Art. 20 GDPR)"],
+          "afterList": "Please direct your request to kurprinz@kolb-antik.de. You also have the right to lodge a complaint with a data protection supervisory authority."
+        }
+      ]
+    }
+  }
+}

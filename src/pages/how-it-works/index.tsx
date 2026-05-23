@@ -1,5 +1,7 @@
 import { ssr } from "../../../config";
 import { Layout } from "../../components/Layout";
+import { localizedPath } from "../../i18n";
+import { pageContext } from "../../pageContext";
 import { ProcessDetailSection } from "./ProcessDetailSection";
 import { CategoriesSection } from "./CategoriesSection";
 import { ConditionsSection } from "./ConditionsSection";
@@ -7,46 +9,42 @@ import { ConditionsSection } from "./ConditionsSection";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
 export default ssr(async (c) => {
-  c.get("page").title =
-    "So funktioniert's — Antiquitäten verkaufen bei Kolb Antik";
-  c.get("page").description =
-    "Antiquitäten verkaufen in 5 Schritten: Kontakt, Bewertung, Einlieferung, Fotografie, Verkauf. Kostenlos, unverbindlich, mit Auszahlung in 22 Werktagen.";
+  const { content, locale, route } = pageContext(c, "howItWorks");
+  const page = content.pages.howItWorks;
 
   return (
-    <Layout>
+    <Layout content={content} locale={locale} route={route}>
       <>
         {/* Page Header */}
         <section class={`${containerClass} pt-12`} style="view-transition-name: page-header">
           <p class="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-6">
-            So funktioniert's
+            {page.header.eyebrow}
           </p>
           <h1 class="font-serif text-3xl lg:text-4xl font-normal leading-tight tracking-tight mb-6">
-            Vom ersten Kontakt bis zur Auszahlung
+            {page.header.title}
           </h1>
           <p class="text-base leading-relaxed text-zinc-500">
-            Unser Prozess ist transparent und unkompliziert. Wir kümmern uns um
-            alles — Sie müssen sich nur einmal bei uns melden.
+            {page.header.text}
           </p>
         </section>
 
-        <ProcessDetailSection />
-        <CategoriesSection />
-        <ConditionsSection />
+        <ProcessDetailSection content={page.detail} />
+        <CategoriesSection content={page.categories} />
+        <ConditionsSection content={page.conditions} />
 
         {/* CTA */}
         <section class={`${containerClass} text-center pb-4`} style="view-transition-name: cta">
           <h2 class="font-serif text-3xl font-normal mb-4 tracking-tight">
-            Bereit für den ersten Schritt?
+            {page.cta.title}
           </h2>
           <p class="text-base text-zinc-500 mb-8 max-w-md mx-auto">
-            Kontaktieren Sie uns für eine kostenlose und unverbindliche
-            Ersteinschätzung Ihrer Objekte.
+            {page.cta.text}
           </p>
           <a
-            href="/contact"
+            href={localizedPath(locale, "contact")}
             class="text-sm font-semibold text-white no-underline bg-zinc-900 px-8 py-4 inline-block rounded text-center hover:bg-zinc-800 transition-colors"
           >
-            Jetzt anfragen
+            {page.cta.button}
           </a>
         </section>
       </>

@@ -1,33 +1,46 @@
 import type { JSX } from "solid-js";
+import { localizedPath, type Content, type Locale } from "../../i18n";
 
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
-export const ContactFormSection = (): JSX.Element => (
+export const ContactFormSection = (props: {
+  content: Content["pages"]["contact"]["form"];
+  locale: Locale;
+}): JSX.Element => {
+  const fields = props.content.fields;
+
+  return (
   <section class={`${containerClass} max-w-3xl`}>
     <div class="mb-8">
       <p class="text-xs font-semibold text-zinc-400 tracking-widest mb-4">
-        SCHREIBEN SIE UNS
+        {props.content.eyebrow}
       </p>
       <h2 class="font-serif text-3xl font-normal leading-snug">
-        Kontaktformular
+        {props.content.title}
       </h2>
     </div>
-    <form class="flex flex-col gap-5" method="POST" action="/contact">
+    <form
+      class="flex flex-col gap-5"
+      method="POST"
+      action={`mailto:kurprinz@kolb-antik.de?subject=${encodeURIComponent(props.content.subject)}`}
+      enctype="text/plain"
+      accept-charset="UTF-8"
+    >
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label
             for="name"
             class="text-sm font-medium text-zinc-700 block mb-2"
           >
-            Name *
+            {fields.name}
           </label>
           <input
             type="text"
             id="name"
-            name="name"
+            name="Name"
             required
             class="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded text-sm text-zinc-900 outline-none focus:border-zinc-400 transition-colors"
-            placeholder="Ihr Name"
+            placeholder={fields.namePlaceholder}
           />
         </div>
         <div>
@@ -35,15 +48,15 @@ export const ContactFormSection = (): JSX.Element => (
             for="email"
             class="text-sm font-medium text-zinc-700 block mb-2"
           >
-            E-Mail *
+            {fields.email}
           </label>
           <input
             type="email"
             id="email"
-            name="email"
+            name="E-Mail"
             required
             class="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded text-sm text-zinc-900 outline-none focus:border-zinc-400 transition-colors"
-            placeholder="ihre@email.de"
+            placeholder={fields.emailPlaceholder}
           />
         </div>
       </div>
@@ -52,40 +65,40 @@ export const ContactFormSection = (): JSX.Element => (
           for="phone"
           class="text-sm font-medium text-zinc-700 block mb-2"
         >
-          Telefon{" "}
-          <span class="text-zinc-400 font-normal">(optional)</span>
+          {fields.phone}{" "}
+          <span class="text-zinc-400 font-normal">{fields.optional}</span>
         </label>
         <input
           type="tel"
           id="phone"
-          name="phone"
+          name="Telefon"
           class="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded text-sm text-zinc-900 outline-none focus:border-zinc-400 transition-colors"
-          placeholder="Falls wir Sie zurückrufen sollen"
+          placeholder={fields.phonePlaceholder}
         />
       </div>
       <div>
         <label class="text-sm font-medium text-zinc-700 block mb-2">
-          Ich bin{" "}
-          <span class="text-zinc-400 font-normal">(optional)</span>
+          {fields.customerType}{" "}
+          <span class="text-zinc-400 font-normal">{fields.optional}</span>
         </label>
         <div class="flex gap-6">
           <label class="flex items-center gap-2 text-sm text-zinc-700 cursor-pointer">
             <input
               type="radio"
-              name="type"
-              value="private"
+              name="Kundentyp"
+              value="Privatperson"
               class="accent-zinc-900"
             />
-            Privatperson
+            {fields.private}
           </label>
           <label class="flex items-center gap-2 text-sm text-zinc-700 cursor-pointer">
             <input
               type="radio"
-              name="type"
-              value="dealer"
+              name="Kundentyp"
+              value="Händler / Galerie"
               class="accent-zinc-900"
             />
-            Händler / Galerie
+            {fields.dealer}
           </label>
         </div>
       </div>
@@ -94,34 +107,35 @@ export const ContactFormSection = (): JSX.Element => (
           for="message"
           class="text-sm font-medium text-zinc-700 block mb-2"
         >
-          Nachricht *
+          {fields.message}
         </label>
         <textarea
           id="message"
-          name="message"
+          name="Nachricht"
           required
           rows={5}
           class="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded text-sm text-zinc-900 outline-none focus:border-zinc-400 transition-colors resize-y"
-          placeholder="Beschreiben Sie Ihre Objekte kurz oder stellen Sie Ihre Frage..."
+          placeholder={fields.messagePlaceholder}
         />
       </div>
       <div>
         <label class="flex items-start gap-3 text-sm text-zinc-500 cursor-pointer">
           <input
             type="checkbox"
-            name="privacy"
+            name="Datenschutz"
+            value="zugestimmt"
             required
             class="accent-zinc-900 mt-0.5"
           />
           <span>
-            Ich stimme der Verarbeitung meiner Daten gemäß der{" "}
+            {fields.privacyBefore}
             <a
-              href="/privacy"
+              href={localizedPath(props.locale, "privacy")}
               class="text-zinc-700 underline hover:text-zinc-900"
             >
-              Datenschutzerklärung
+              {fields.privacyLink}
             </a>{" "}
-            zu. *
+            {fields.privacyAfter}
           </span>
         </label>
       </div>
@@ -130,9 +144,10 @@ export const ContactFormSection = (): JSX.Element => (
           type="submit"
           class="text-sm font-semibold text-white bg-zinc-900 px-8 py-4 rounded hover:bg-zinc-800 transition-colors cursor-pointer"
         >
-          Nachricht senden
+          {fields.submit}
         </button>
       </div>
     </form>
   </section>
-);
+  );
+};

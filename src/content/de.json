@@ -1,0 +1,527 @@
+{
+  "common": {
+    "brand": "KOLB ANTIK",
+    "nav": {
+      "howItWorks": "So funktioniert's",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "menuOpen": "Menü öffnen",
+      "menuClose": "Menü schließen"
+    },
+    "footer": {
+      "faq": "FAQ",
+      "imprint": "Impressum",
+      "privacy": "Datenschutz",
+      "copyright": "Kolb Antik GmbH, Ulm",
+      "german": "Deutsch",
+      "english": "English"
+    },
+    "beta": {
+      "eyebrow": "INTERNE BETA",
+      "title": "Hinweis",
+      "text": "Diese Website befindet sich in aktiver Entwicklung. Alle Inhalte, Funktionen und Darstellungen sind vorläufig und nicht verbindlich.",
+      "button": "Verstanden"
+    },
+    "buttons": {
+      "contact": "Kontakt aufnehmen",
+      "requestNow": "Jetzt anfragen",
+      "requestContact": "Jetzt Kontakt aufnehmen"
+    },
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail"
+    }
+  },
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Kolb Antik GmbH",
+        "description": "Kunst- und Antiquitätenhandel seit 1984."
+      },
+      "hero": {
+        "eyebrow": "Seit 1984 · Kunst- und Antiquitätenhandel",
+        "title": "Wir verkaufen Ihre Kunst und Antiquitäten — an über 50.000 Sammler weltweit.",
+        "text": "Professionell fotografiert, kunsthistorisch bewertet und an eine internationale Käuferschaft vermittelt.",
+        "primary": "Unverbindlich anfragen",
+        "secondary": "So funktioniert's",
+        "priceLabel": "Zuschlagspreis"
+      },
+      "process": {
+        "eyebrow": "PROZESS",
+        "title": "In drei Schritten zum Verkauf",
+        "link": "Mehr Info's",
+        "steps": [
+          {
+            "num": "01",
+            "title": "Kontakt aufnehmen",
+            "text": "Fotos senden per E-Mail, Telefon oder WhatsApp. Schnell und unkompliziert."
+          },
+          {
+            "num": "02",
+            "title": "Bewertung & Beratung",
+            "text": "Kostenlose Einschätzung durch unsere Kunsthistoriker. Transparent und fair."
+          },
+          {
+            "num": "03",
+            "title": "Verkauf & Auszahlung",
+            "text": "Professionelle Fotografie, Beschreibung und weltweite Vermarktung."
+          }
+        ]
+      },
+      "why": {
+        "eyebrow": "WARUM KOLB ANTIK",
+        "title": "Eine starke Bühne für Ihre Objekte",
+        "paragraphs": [
+          "Mit über 50.000 Followern und bis zu 15.000 aktiven Angeboten monatlich bieten wir eine Reichweite, die kein einzelner Händler alleine erreicht. Ihre Objekte werden international sichtbar — von Ulm bis Tokio.",
+          "Kunsthistorische Bewertung, professionelle Fotografie, sichere Lagerung und täglicher Versand — alles unter einem Dach."
+        ]
+      },
+      "stats": [
+        { "value": "1984", "label": "40+ Jahre Erfahrung" },
+        { "value": "50.000+", "label": "Follower auf eBay" },
+        { "value": "99,9%", "label": "Positive Bewertungen" },
+        { "value": "15.000+", "label": "Monatlich vermarktete Objekte" }
+      ],
+      "results": {
+        "eyebrow": "AUKTIONSERGEBNISSE",
+        "title": "Ausgewählte Verkäufe",
+        "next": "Weitere anzeigen",
+        "soldFor": "Verkauft für"
+      },
+      "cta": {
+        "eyebrow": "KONTAKT",
+        "title": "Haben Sie Objekte, die Sie verkaufen möchten?",
+        "text": "Kontaktieren Sie uns für eine kostenlose und unverbindliche Einschätzung. Wir melden uns innerhalb von 48 Stunden.",
+        "button": "Jetzt Kontakt aufnehmen"
+      },
+      "whatsapp": {
+        "ariaLabel": "Kolb Antik über WhatsApp kontaktieren",
+        "text": "Unverbindlich per WhatsApp"
+      }
+    },
+    "about": {
+      "meta": {
+        "title": "Über uns — Kolb Antik · Seit 1984 in Ulm",
+        "description": "Lernen Sie Kolb Antik kennen: Seit 1984 in Ulm, 50 Mitarbeiter, Kunsthistoriker, eigene Fotografie und Logistik."
+      },
+      "header": {
+        "eyebrow": "Über Kolb Antik",
+        "title": "Seit 1984 verbinden wir Sammler mit den Dingen, die sie suchen.",
+        "text": "Kunst- und Antiquitätenhandel seit 1984 — aus Ulm, für die ganze Welt. 50 Mitarbeiter, eigene Fotografie, kunsthistorische Bewertung und täglicher Versand."
+      },
+      "history": {
+        "eyebrow": "UNSERE GESCHICHTE",
+        "title": "Von der Werkstatt zum Kunst- und Antiquitätenhandel auf eBay",
+        "image": "/public/imgs/homepage-candidates/30-h63c1-h63c1743.jpg",
+        "imageAlt": "James Rizzi Kunstwerk From New York to Heidelberg",
+        "paragraphs": [
+          "1984 begann Wolfgang Kolb mit dem Antiquitätenhandel. Was als Ein-Mann-Betrieb begann, entwickelte sich über vier Jahrzehnte zu einem Kunst- und Antiquitätenhandel mit internationaler Käuferschaft.",
+          "Der Wendepunkt kam Anfang der 2000er Jahre: Als einer der ersten Antiquitätenhändler in Deutschland erkannten wir das Potenzial von eBay. Unter dem Nutzernamen „Kurprinz\" bauten wir eine internationale Käuferschaft auf — heute mit über 50.000 Followern.",
+          "Heute arbeitet ein Team aus Kunsthistorikern, Fotografen und Logistikexperten daran, über 15.000 Objekte monatlich professionell zu vermarkten — von Ulm aus in die ganze Welt."
+        ]
+      },
+      "expertise": {
+        "eyebrow": "UNSER TEAM",
+        "title": "50 Spezialisten unter einem Dach",
+        "departments": [
+          {
+            "icon": "ti-book",
+            "title": "Kunsthistorik",
+            "text": "Unsere Kunsthistoriker bewerten und beschreiben jedes Objekt fachkundig — von der Epoche bis zur Provenienz."
+          },
+          {
+            "icon": "ti-camera",
+            "title": "Fotografie",
+            "text": "Professionelle Produktfotografie im eigenen Studio. Jedes Stück wird optimal in Szene gesetzt."
+          },
+          {
+            "icon": "ti-truck",
+            "title": "Logistik",
+            "text": "Sichere Lagerung, fachgerechte Verpackung und täglicher Versand weltweit — alles unter einem Dach."
+          }
+        ]
+      },
+      "infrastructure": {
+        "eyebrow": "INFRASTRUKTUR",
+        "title": "Alles aus einer Hand",
+        "items": [
+          {
+            "title": "Eigenes Fotostudio",
+            "text": "Professionelle Produktfotografie mit kalibrierten Farben, mehreren Perspektiven und Detailaufnahmen — für optimale Präsentation auf eBay.",
+            "img": "/public/imgs/homepage-candidates/32-P11K1-P11K1001.jpg",
+            "alt": "Meissen Porzellan Prunk-Kaffeeservice"
+          },
+          {
+            "title": "Sichere Lagerhaltung",
+            "text": "Über 1.000 m² Lagerfläche mit Inventarverwaltung und sicherer Aufbewahrung Ihrer Objekte bis zum Verkauf.",
+            "img": "/public/imgs/homepage-candidates/71-L96R1-L96R1053.jpg",
+            "alt": "Mughal Armreif aus Indien als professionell fotografiertes Sammlerstück"
+          },
+          {
+            "title": "Täglicher Versand",
+            "text": "Fachgerechte Verpackung und täglicher Versand weltweit. Abholservice in ganz Deutschland und der EU für größere Sammlungen.",
+            "img": "/public/imgs/homepage-candidates/08-P53W1-P53W1015.jpg",
+            "alt": "Fragile Meissen Porzellanfiguren als Affenkapelle"
+          }
+        ]
+      },
+      "awards": {
+        "eyebrow": "PRESSE & AUSZEICHNUNGEN",
+        "title": "Presseberichte über Kolb Antik",
+        "text": "Eine Auswahl von Presseberichten, Archivmaterial und Auszeichnungen — vom regionalen Porträt bis zum eBay Award.",
+        "awardAlt": "Wolfgang Kolb bei den eBay Awards 2023",
+        "awardCaption": "eBay Awards 2023: Kolb Antik wurde von eBay Deutschland ausgezeichnet.",
+        "archive": "Archiv",
+        "archiveTitle": "Weitere Berichte im Pressearchiv",
+        "archiveText": "Die SWR-Unterlagen liegen als Screenshots und Linknotiz intern vor. Da der öffentliche Link nicht zuverlässig erreichbar ist, wird er hier nicht verlinkt.",
+        "archiveNotice": "Archivnachweis intern vorhanden",
+        "pressItems": [
+          {
+            "source": "Frankfurter Allgemeine Zeitung",
+            "date": "August 2023",
+            "title": "Seine Kunst ist der Handel mit Krempel",
+            "text": "Ein Besuch bei Kolb Antik in Neu-Ulm und ein Blick auf die Organisation hinter tausenden Online-Auktionen.",
+            "href": "/public/press/faz-seine-kunst-ist-der-handel-mit-krempel.pdf",
+            "action": "PDF ansehen"
+          },
+          {
+            "source": "Neu-Ulmer Zeitung",
+            "date": "Februar 2024",
+            "title": "Ein Weltstar unter den Auktionshäusern",
+            "text": "Porträt über Wolfgang Kolb und den Aufbau eines digitalen Kunst- und Antiquitätenhandels mit internationaler Reichweite.",
+            "href": "/public/press/neu-ulmer-zeitung-ein-weltstar-unter-den-auktionshaeusern.pdf",
+            "action": "PDF ansehen"
+          },
+          {
+            "source": "BUNTE",
+            "date": "Juli 2025",
+            "title": "Becker-Schätze unter dem Hammer",
+            "text": "Bericht über die Versteigerung von Erinnerungsstücken aus Boris Beckers Karriere über Kolb Antik.",
+            "href": "/public/press/bunte-boris-becker-auktion.pdf",
+            "action": "PDF ansehen"
+          },
+          {
+            "source": "SWR Aktuell",
+            "date": "Oktober 2023",
+            "title": "Onlineauktionshaus aus Neu-Ulm verkauft weltweit",
+            "text": "Der SWR berichtete über Antiquitäten, Schmuck, Möbel und Kurioses aus Neu-Ulm, die Käufer in aller Welt finden."
+          },
+          {
+            "source": "eBay for Business",
+            "date": "September 2022",
+            "title": "eBay-Verkäufer im Gespräch: Wolfgang Kolb",
+            "text": "Podcast-Gespräch über den Weg vom stationären Antiquitätenhandel zu einem der prägenden eBay-Händler im Segment Kunst und Antiquitäten.",
+            "href": "https://ebay.podigee.io/25-ebay-verkauferinnen-im-gesprach-wolfgang-kolb",
+            "action": "Podcast öffnen"
+          },
+          {
+            "source": "eBay",
+            "date": "Top-Seller",
+            "title": "Fotowand Kurprinz",
+            "text": "eBay-Material zu Kolb Antik als Top-Seller und zur Entwicklung des Accounts Kurprinz.",
+            "href": "/public/press/ebay-top-seller-kurprinz.pdf",
+            "action": "PDF ansehen"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Lernen Sie uns kennen",
+        "text": "Wir freuen uns auf Ihre Anfrage — ob für einzelne Objekte oder eine ganze Sammlung.",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "howItWorks": {
+      "meta": {
+        "title": "So funktioniert's — Antiquitäten verkaufen bei Kolb Antik",
+        "description": "Antiquitäten verkaufen in 5 Schritten: Kontakt, Bewertung, Einlieferung, Fotografie, Verkauf. Kostenlos, unverbindlich, mit Auszahlung in 22 Werktagen."
+      },
+      "header": {
+        "eyebrow": "So funktioniert's",
+        "title": "Vom ersten Kontakt bis zur Auszahlung",
+        "text": "Unser Prozess ist transparent und unkompliziert. Wir kümmern uns um alles — Sie müssen sich nur einmal bei uns melden."
+      },
+      "detail": {
+        "eyebrow": "DER PROZESS IM DETAIL",
+        "title": "Fünf Schritte zum erfolgreichen Verkauf",
+        "steps": [
+          {
+            "num": "01",
+            "title": "Kontakt aufnehmen",
+            "text": "Senden Sie uns Fotos und eine kurze Beschreibung Ihrer Objekte — per E-Mail, Telefon oder WhatsApp. Auch ein persönlicher Termin vor Ort ist möglich.",
+            "detail": "Wir melden uns innerhalb von 48 Stunden bei Ihnen."
+          },
+          {
+            "num": "02",
+            "title": "Bewertung & Beratung",
+            "text": "Unsere Kunsthistoriker bewerten Ihre Objekte und nennen Ihnen eine realistische Preisspanne. Die professionelle Einschätzung ist kostenlos und unverbindlich.",
+            "detail": "Professionell, transparent und ohne Verpflichtung."
+          },
+          {
+            "num": "03",
+            "title": "Einlieferung",
+            "text": "Bringen Sie Ihre Objekte vorbei oder nutzen Sie unseren Abholservice — deutschlandweit und innerhalb der EU.",
+            "detail": "Alle Objekte werden inventarisiert und sicher dokumentiert."
+          },
+          {
+            "num": "04",
+            "title": "Professionelle Aufbereitung",
+            "text": "Jedes Stück wird in unserem Studio professionell fotografiert, kunsthistorisch beschrieben und auf eBay eingestellt — sichtbar für über 50.000 Follower.",
+            "detail": "Mehrere Perspektiven, Detailaufnahmen, kalibrierte Farben."
+          },
+          {
+            "num": "05",
+            "title": "Verkauf & Auszahlung",
+            "text": "Wir übernehmen Verpackung, Versand und Kundenservice. Sie erhalten Ihren Erlös innerhalb von 22 Werktagen — mit detaillierter Abrechnung.",
+            "detail": "Transparente Konditionen, keine versteckten Kosten."
+          }
+        ]
+      },
+      "categories": {
+        "eyebrow": "WAS WIR VERKAUFEN",
+        "title": "Von der Alltagsantiquität bis zum Meisterwerk",
+        "text": "Nicht sicher, ob Ihr Stück geeignet ist? Kontaktieren Sie uns — wir geben eine professionelle Einschätzung.",
+        "items": [
+          { "icon": "ti-palette", "label": "Gemälde & Grafiken" },
+          { "icon": "ti-cup", "label": "Porzellan & Keramik" },
+          { "icon": "ti-diamond", "label": "Silber & Metallobjekte" },
+          { "icon": "ti-armchair", "label": "Möbel & Einrichtung" },
+          { "icon": "ti-rings", "label": "Schmuck & Uhren" },
+          { "icon": "ti-yin-yang", "label": "Asiatische Kunst" },
+          { "icon": "ti-book", "label": "Bücher & Autographen" },
+          { "icon": "ti-puzzle", "label": "Sammlungen & Nachlässe" }
+        ]
+      },
+      "conditions": {
+        "eyebrow": "KONDITIONEN",
+        "title": "Fair und transparent",
+        "items": [
+          {
+            "title": "Provision",
+            "text": "Klare Bedingungen — je hochwertiger Ihre Objekte, desto niedriger unsere Provision."
+          },
+          {
+            "title": "In jeder Größenordnung",
+            "text": "Ob Einzelstück oder ganze Sammlung — wir kümmern uns um jede Einlieferung."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bereit für den ersten Schritt?",
+        "text": "Kontaktieren Sie uns für eine kostenlose und unverbindliche Ersteinschätzung Ihrer Objekte.",
+        "button": "Jetzt anfragen"
+      }
+    },
+    "faq": {
+      "meta": {
+        "title": "FAQ — Häufig gestellte Fragen · Kolb Antik",
+        "description": "Antworten auf die häufigsten Fragen zum Verkauf von Antiquitäten bei Kolb Antik: Ablauf, Kosten, Auszahlung und mehr."
+      },
+      "header": {
+        "eyebrow": "FAQ",
+        "title": "Häufig gestellte Fragen",
+        "text": "Hier finden Sie Antworten auf die wichtigsten Fragen rund um den Verkauf Ihrer Kunst und Antiquitäten bei Kolb Antik."
+      },
+      "items": [
+        {
+          "q": "Wie lange dauert der gesamte Prozess?",
+          "a": "Von der Einlieferung bis zum Verkauf vergehen in der Regel etwa 14 Tage. Bei größeren Sammlungen kann es etwas länger dauern — wir informieren Sie transparent über den Zeitplan."
+        },
+        {
+          "q": "Wann erhalte ich mein Geld?",
+          "a": "Die Auszahlung erfolgt innerhalb von 22 Werktagen nach Auktionsende. Sie erhalten eine detaillierte Abrechnung über alle verkauften Objekte."
+        },
+        {
+          "q": "Kaufen Sie auch an?",
+          "a": "Ja, wir kaufen gerne an, in bar und in jeder Größenordnung. Sprechen Sie uns für ein unverbindliches Angebot einfach an."
+        },
+        {
+          "q": "Warum arbeiten Sie bei eBay ohne Mindestverkaufspreis?",
+          "a": "Limitlose Auktionen erzeugen erfahrungsgemäß mehr Bieter und damit mehr Wettbewerb. Das führt in der Regel zu besseren Endpreisen als bei Auktionen mit hohem Startpreis. Für Objekte, bei denen ein Limit gesetzt werden soll, bieten wir Online-Kunstauktionen über internationale Auktionsplattformen an."
+        },
+        {
+          "q": "Verkaufen Sie ausschließlich über eBay?",
+          "aBeforeLink": "Nein. eBay ist weiterhin unser wichtigster Verkaufskanal, weil wir dort eine große internationale Käuferschaft erreichen. Für ausgewählte Kunst- und Sammlungsobjekte nutzen wir zusätzlich ",
+          "linkText": "Lottissimo",
+          "aAfterLink": " und weitere passende Auktionsplattformen."
+        },
+        {
+          "q": "Bieten Sie einen Abholservice an?",
+          "a": "Ja, für größere Sammlungen oder sperrige Objekte bieten wir einen Abholservice innerhalb Deutschlands und der EU an."
+        },
+        {
+          "q": "Welche Objekte nehmen Sie an?",
+          "a": "Wir nehmen Kunst, Antiquitäten, Sammlerstücke, Schmuck, Silber, Porzellan, Möbel, ganze Sammlungen und Nachlässe an. Bei Unsicherheit kontaktieren Sie uns gerne — wir geben Ihnen eine professionelle Einschätzung."
+        },
+        {
+          "q": "Ist die Erstbewertung kostenlos?",
+          "a": "Ja, die Erstbewertung ist kostenlos und unverbindlich. Sie können sich danach in Ruhe entscheiden, ob Sie mit uns arbeiten möchten."
+        }
+      ],
+      "cta": {
+        "title": "Noch Fragen?",
+        "text": "Wir beraten Sie gerne persönlich. Kontaktieren Sie uns für eine kostenlose Ersteinschätzung.",
+        "button": "Kontakt aufnehmen"
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — Kolb Antik · Antiquitäten verkaufen",
+        "description": "Kontaktieren Sie Kolb Antik für eine kostenlose Ersteinschätzung Ihrer Kunst und Antiquitäten. Per Telefon, E-Mail, WhatsApp oder persönlich in Ulm."
+      },
+      "header": {
+        "eyebrow": "Kontakt",
+        "title": "Sprechen Sie mit uns",
+        "text": "Ob Fragen, Bewertung oder Einlieferung — wir sind auf mehreren Wegen erreichbar und melden uns innerhalb von 48 Stunden."
+      },
+      "methods": [
+        {
+          "icon": "ti-phone",
+          "title": "Telefon",
+          "value": "+49 731 850754",
+          "subtitle": "Mo–Fr, 8–12 & 13–16 Uhr",
+          "href": "tel:+49731850754"
+        },
+        {
+          "icon": "ti-mail",
+          "title": "E-Mail",
+          "value": "kurprinz@kolb-antik.de",
+          "subtitle": "Antwort innerhalb von 2 Werktagen",
+          "href": "mailto:kurprinz@kolb-antik.de"
+        },
+        {
+          "icon": "ti-brand-whatsapp",
+          "title": "WhatsApp",
+          "value": "+49 731 123 456 78",
+          "subtitle": "Ideal für Fotos",
+          "href": "https://wa.me/497311234567"
+        },
+        {
+          "icon": "ti-map-pin",
+          "title": "Vor Ort",
+          "value": "Finninger Str., Neu-Ulm",
+          "subtitle": "Nach Vereinbarung",
+          "href": "https://maps.google.com/?q=Finningerstraße+56+89073+Neu+Ulm"
+        }
+      ],
+      "form": {
+        "eyebrow": "SCHREIBEN SIE UNS",
+        "title": "Kontaktformular",
+        "subject": "Anfrage über die Website",
+        "fields": {
+          "name": "Name *",
+          "namePlaceholder": "Ihr Name",
+          "email": "E-Mail *",
+          "emailPlaceholder": "ihre@email.de",
+          "phone": "Telefon",
+          "optional": "(optional)",
+          "phonePlaceholder": "Falls wir Sie zurückrufen sollen",
+          "customerType": "Ich bin",
+          "private": "Privatperson",
+          "dealer": "Händler / Galerie",
+          "message": "Nachricht *",
+          "messagePlaceholder": "Beschreiben Sie Ihre Objekte kurz oder stellen Sie Ihre Frage...",
+          "privacyBefore": "Ich stimme der Verarbeitung meiner Daten gemäß der ",
+          "privacyLink": "Datenschutzerklärung",
+          "privacyAfter": " zu. *",
+          "submit": "E-Mail vorbereiten"
+        }
+      },
+      "location": {
+        "eyebrow": "STANDORT",
+        "title": "Kolb Antik GmbH",
+        "country": "Deutschland",
+        "hoursLabel": "Öffnungszeiten:",
+        "hours": "Mo–Fr, 8–12 & 13–16 Uhr",
+        "visitsLabel": "Besuche:",
+        "visits": "Nach Vereinbarung",
+        "route": "Route planen",
+        "mapAlt": "Standort Kolb Antik GmbH, Neu-Ulm"
+      }
+    },
+    "imprint": {
+      "meta": {
+        "title": "Impressum — Kolb Antik GmbH",
+        "description": "Impressum der Kolb Antik GmbH, Ulm."
+      },
+      "eyebrow": "Rechtliches",
+      "title": "Impressum",
+      "sections": [
+        {
+          "title": "Angaben gemäß § 5 TMG",
+          "lines": ["Kolb Antik GmbH", "Maienweg 22", "89081 Ulm", "Deutschland"]
+        },
+        {
+          "kind": "box",
+          "eyebrow": "LAGER, SENDUNGEN & ABHOLUNGEN",
+          "lines": ["Alle Sendungen, Einlieferungen und Abholungen bitte an unsere Lageradresse:", "Kolb Antik GmbH", "Finninger Straße 56", "89231 Neu-Ulm"]
+        },
+        {
+          "title": "Kontakt",
+          "contact": true
+        },
+        {
+          "title": "Vertretungsberechtigter Geschäftsführer",
+          "lines": ["Wolfgang Kolb"]
+        },
+        {
+          "title": "Registereintrag",
+          "lines": ["Eintragung im Handelsregister", "Registergericht: Amtsgericht Ulm", "Registernummer: HRB 741739"]
+        },
+        {
+          "title": "Umsatzsteuer-Identifikationsnummer",
+          "lines": ["Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:", "DE344235170"]
+        },
+        {
+          "title": "Haftungsausschluss",
+          "paragraphs": [
+            "Alle Angaben auf dieser Website — insbesondere zu Preisen, Leistungen, Abläufen und Konditionen — sind unverbindlich und freibleibend. Irrtümer und Änderungen bleiben ausdrücklich vorbehalten.",
+            "Die Inhalte dieser Website stellen kein verbindliches Angebot dar. Verbindliche Vereinbarungen kommen ausschließlich durch individuelle schriftliche Absprache zustande."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "meta": {
+        "title": "Datenschutzerklärung — Kolb Antik GmbH",
+        "description": "Datenschutzerklärung der Kolb Antik GmbH. Informationen zur Verarbeitung personenbezogener Daten."
+      },
+      "eyebrow": "Rechtliches",
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "title": "1. Verantwortlicher",
+          "paragraphs": ["Verantwortlich für die Datenverarbeitung auf dieser Website:"],
+          "lines": ["Kolb Antik GmbH", "Maienweg 22, 89081 Ulm"],
+          "email": true
+        },
+        {
+          "title": "2. Allgemeine Hinweise",
+          "paragraphs": [
+            "Wir nehmen den Schutz Ihrer persönlichen Daten ernst. Diese Website verwendet keine Cookies, keine Tracking-Tools und keine externen Dienste (wie Google Analytics, Google Fonts oder Social-Media-Plugins).",
+            "Alle Inhalte — einschließlich Schriften und Icons — werden direkt von unserem eigenen Server ausgeliefert. Es findet keine Datenübertragung an Dritte statt, wenn Sie unsere Website besuchen."
+          ]
+        },
+        {
+          "title": "3. Hosting und Server-Logfiles",
+          "paragraphs": ["Beim Besuch unserer Website werden automatisch technische Informationen in Server-Logfiles gespeichert:"],
+          "list": ["IP-Adresse (anonymisiert)", "Datum und Uhrzeit des Zugriffs", "Aufgerufene Seite", "Browser-Typ und Betriebssystem"],
+          "afterList": "Diese Daten sind nicht bestimmten Personen zuordenbar und werden ausschließlich zur Sicherstellung des Betriebs und zur Fehlerbehebung verwendet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)."
+        },
+        {
+          "title": "4. Kontaktformular und E-Mail-Kontakt",
+          "paragraphs": [
+            "Wenn Sie uns über das Kontaktformular, per E-Mail, Telefon oder WhatsApp kontaktieren, werden die von Ihnen mitgeteilten Daten (z. B. Name, E-Mail-Adresse, Telefonnummer, Nachricht) von uns gespeichert und zur Bearbeitung Ihrer Anfrage verwendet.",
+            "Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung Ihrer Anfrage).",
+            "Ihre Daten werden nicht an Dritte weitergegeben und gelöscht, sobald die Anfrage abschließend bearbeitet wurde — es sei denn, gesetzliche Aufbewahrungsfristen stehen dem entgegen."
+          ]
+        },
+        {
+          "title": "5. Ihre Rechte",
+          "paragraphs": ["Sie haben jederzeit das Recht auf:"],
+          "list": ["Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)", "Berichtigung unrichtiger Daten (Art. 16 DSGVO)", "Löschung Ihrer Daten (Art. 17 DSGVO)", "Einschränkung der Verarbeitung (Art. 18 DSGVO)", "Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)", "Datenübertragbarkeit (Art. 20 DSGVO)"],
+          "afterList": "Richten Sie Ihr Anliegen bitte an kurprinz@kolb-antik.de. Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren."
+        }
+      ]
+    }
+  }
+}
