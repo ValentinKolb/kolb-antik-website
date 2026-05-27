@@ -142,7 +142,7 @@ export const ContactFormSection = (props: {
       <div>
         <button
           type="submit"
-          class="text-sm font-semibold text-white bg-zinc-900 px-8 py-4 rounded hover:bg-zinc-800 transition-colors cursor-pointer"
+          class="cursor-pointer rounded border border-zinc-900 bg-zinc-900 px-8 py-4 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-zinc-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-900"
         >
           {fields.submit}
         </button>

@@ -9,13 +9,14 @@ import { StatsSection } from "./StatsSection";
 import RecentResultsSection from "./RecentResultsSection.island";
 import { CTASection } from "./CTASection";
 import { FloatingWhatsAppLink } from "./FloatingWhatsAppLink";
+import { MarketplaceLinksSection } from "./MarketplaceLinksSection";
 
 export default ssr(async (c) => {
-  const { content, locale, route } = pageContext(c, "home");
+  const { content, locale, route, showLanguagePrompt } = pageContext(c, "home");
   const home = content.pages.home;
 
   return (
-    <Layout content={content} locale={locale} route={route}>
+    <Layout content={content} locale={locale} route={route} showLanguagePrompt={showLanguagePrompt}>
       <>
         <HeroSection
           initialIndex={randomHeroIndex()}
@@ -27,6 +28,7 @@ export default ssr(async (c) => {
         <WhyKolbSection content={home.why} />
         <StatsSection content={home.stats} />
         <RecentResultsSection content={home.results} />
+        <MarketplaceLinksSection content={home.marketplaces} />
         <CTASection content={home.cta} href={localizedPath(locale, "contact")} />
         <FloatingWhatsAppLink content={home.whatsapp} />
       </>

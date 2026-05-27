@@ -8,11 +8,11 @@ import { LocationSection } from "./LocationSection";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
 export default ssr(async (c) => {
-  const { content, locale, route } = pageContext(c, "contact");
+  const { content, locale, route, showLanguagePrompt } = pageContext(c, "contact");
   const page = content.pages.contact;
 
   return (
-    <Layout content={content} locale={locale} route={route}>
+    <Layout content={content} locale={locale} route={route} showLanguagePrompt={showLanguagePrompt}>
       <>
         {/* Page Header */}
         <section class={`${containerClass} pt-12`} style="view-transition-name: page-header">

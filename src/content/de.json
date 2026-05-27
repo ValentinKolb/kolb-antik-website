@@ -16,11 +16,9 @@
       "german": "Deutsch",
       "english": "English"
     },
-    "beta": {
-      "eyebrow": "INTERNE BETA",
-      "title": "Hinweis",
-      "text": "Diese Website befindet sich in aktiver Entwicklung. Alle Inhalte, Funktionen und Darstellungen sind vorläufig und nicht verbindlich.",
-      "button": "Verstanden"
+    "languagePrompt": {
+      "title": "Sprache wählen",
+      "text": "Möchten Sie die Website auf Deutsch oder Englisch ansehen?"
     },
     "buttons": {
       "contact": "Kontakt aufnehmen",
@@ -87,6 +85,31 @@
         "title": "Ausgewählte Verkäufe",
         "next": "Weitere anzeigen",
         "soldFor": "Verkauft für"
+      },
+      "marketplaces": {
+        "eyebrow": "VERKAUFSKANÄLE",
+        "title": "Aktuelle Auktionen und Angebote",
+        "text": "Entdecken Sie unsere laufenden Angebote direkt auf den Plattformen, auf denen wir verkaufen.",
+        "links": [
+          {
+            "label": "eBay",
+            "href": "https://www.ebay.de/str/kolbantikulm?_sop=16&_tab=shop",
+            "icon": "ti-world-www",
+            "logo": "/public/logos/ebay-logo.svg"
+          },
+          {
+            "label": "eBay Live",
+            "href": "https://www.ebay.de/str/kolbantikulm?_sop=16&_tab=shop",
+            "icon": "ti-broadcast",
+            "logo": "/public/logos/ebay-live-logo-v2.svg"
+          },
+          {
+            "label": "lot-tissimo",
+            "href": "https://www.lot-tissimo.com/de-de/auction-catalogues/kolb",
+            "icon": "ti-gavel",
+            "logo": "/public/logos/lot-tissimo-logo.jpg"
+          }
+        ]
       },
       "cta": {
         "eyebrow": "KONTAKT",
@@ -204,7 +227,7 @@
             "source": "SWR Aktuell",
             "date": "Oktober 2023",
             "title": "Onlineauktionshaus aus Neu-Ulm verkauft weltweit",
-            "text": "Der SWR berichtete über Antiquitäten, Schmuck, Möbel und Kurioses aus Neu-Ulm, die Käufer in aller Welt finden."
+            "text": "Der SWR berichtete über Antiquitäten, Schmuck, Glas und Kurioses aus Neu-Ulm, die Käufer in aller Welt finden."
           },
           {
             "source": "eBay for Business",
@@ -284,7 +307,7 @@
           { "icon": "ti-palette", "label": "Gemälde & Grafiken" },
           { "icon": "ti-cup", "label": "Porzellan & Keramik" },
           { "icon": "ti-diamond", "label": "Silber & Metallobjekte" },
-          { "icon": "ti-armchair", "label": "Möbel & Einrichtung" },
+          { "icon": "ti-clock", "label": "Uhren, Glas & Varia" },
           { "icon": "ti-rings", "label": "Schmuck & Uhren" },
           { "icon": "ti-yin-yang", "label": "Asiatische Kunst" },
           { "icon": "ti-book", "label": "Bücher & Autographen" },
@@ -341,7 +364,7 @@
         {
           "q": "Verkaufen Sie ausschließlich über eBay?",
           "aBeforeLink": "Nein. eBay ist weiterhin unser wichtigster Verkaufskanal, weil wir dort eine große internationale Käuferschaft erreichen. Für ausgewählte Kunst- und Sammlungsobjekte nutzen wir zusätzlich ",
-          "linkText": "Lottissimo",
+          "linkText": "lot-tissimo",
           "aAfterLink": " und weitere passende Auktionsplattformen."
         },
         {
@@ -350,7 +373,7 @@
         },
         {
           "q": "Welche Objekte nehmen Sie an?",
-          "a": "Wir nehmen Kunst, Antiquitäten, Sammlerstücke, Schmuck, Silber, Porzellan, Möbel, ganze Sammlungen und Nachlässe an. Bei Unsicherheit kontaktieren Sie uns gerne — wir geben Ihnen eine professionelle Einschätzung."
+          "a": "Wir nehmen Kunst, Antiquitäten, Sammlerstücke, Schmuck, Silber, Porzellan, Glas, Uhren, Varia, ganze Sammlungen und Nachlässe an. Bei Unsicherheit kontaktieren Sie uns gerne — wir geben Ihnen eine professionelle Einschätzung."
         },
         {
           "q": "Ist die Erstbewertung kostenlos?",
@@ -391,16 +414,16 @@
         {
           "icon": "ti-brand-whatsapp",
           "title": "WhatsApp",
-          "value": "+49 731 123 456 78",
+          "value": "0170 7216630",
           "subtitle": "Ideal für Fotos",
-          "href": "https://wa.me/497311234567"
+          "href": "https://wa.me/491707216630"
         },
         {
           "icon": "ti-map-pin",
           "title": "Vor Ort",
-          "value": "Finninger Str., Neu-Ulm",
-          "subtitle": "Nach Vereinbarung",
-          "href": "https://maps.google.com/?q=Finningerstraße+56+89073+Neu+Ulm"
+          "value": "Finninger Straße 56",
+          "subtitle": "89231 Neu-Ulm",
+          "href": "https://maps.google.com/?q=Finninger+Straße+56+89231+Neu-Ulm"
         }
       ],
       "form": {
@@ -432,7 +455,7 @@
         "country": "Deutschland",
         "hoursLabel": "Öffnungszeiten:",
         "hours": "Mo–Fr, 8–12 & 13–16 Uhr",
-        "visitsLabel": "Besuche:",
+        "visitsLabel": "Termine:",
         "visits": "Nach Vereinbarung",
         "route": "Route planen",
         "mapAlt": "Standort Kolb Antik GmbH, Neu-Ulm"

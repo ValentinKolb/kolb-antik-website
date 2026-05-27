@@ -2,6 +2,7 @@ import type { Context } from "hono";
 import {
   getContent,
   localeFromPath,
+  shouldShowLanguagePrompt,
   type Content,
   type Locale,
   type RouteKey,
@@ -11,6 +12,7 @@ export type PageContext = {
   content: Content;
   locale: Locale;
   route: RouteKey;
+  showLanguagePrompt: boolean;
 };
 
 export const pageContext = (c: Context, route: RouteKey): PageContext => {
@@ -22,5 +24,10 @@ export const pageContext = (c: Context, route: RouteKey): PageContext => {
   c.get("page").title = meta.title;
   c.get("page").description = meta.description;
 
-  return { content, locale, route };
+  return {
+    content,
+    locale,
+    route,
+    showLanguagePrompt: shouldShowLanguagePrompt(c.req.raw.headers),
+  };
 };

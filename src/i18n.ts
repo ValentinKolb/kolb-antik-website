@@ -69,27 +69,7 @@ export const localeFromPath = (pathname: string): Locale | undefined => {
   return isLocale(maybeLocale) ? maybeLocale : undefined;
 };
 
-export const localeFromAcceptLanguage = (
-  acceptLanguage: string | undefined,
-): Locale => {
-  if (!acceptLanguage) {
-    return defaultLocale;
-  }
-
-  const languages = acceptLanguage
-    .split(",")
-    .map((part) => part.trim().split(";")[0]?.toLowerCase())
-    .filter(Boolean);
-
-  return languages.some((language) => language === "en" || language?.startsWith("en-"))
-    ? "en"
-    : defaultLocale;
-};
-
-export const localeCookie = (locale: Locale): string =>
-  `locale=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
-
-export const detectLocale = (headers: Headers): Locale => {
+export const localeFromCookie = (headers: Headers): Locale | undefined => {
   const cookieLocale = headers
     .get("cookie")
     ?.split(";")
@@ -97,11 +77,37 @@ export const detectLocale = (headers: Headers): Locale => {
     .find((part) => part.startsWith("locale="))
     ?.split("=")[1];
 
-  if (isLocale(cookieLocale)) {
+  return isLocale(cookieLocale) ? cookieLocale : undefined;
+};
+
+const primaryBrowserLanguage = (headers: Headers): string | undefined =>
+  headers
+    .get("accept-language")
+    ?.split(",")[0]
+    ?.trim()
+    .split(";")[0]
+    ?.toLowerCase();
+
+export const shouldShowLanguagePrompt = (headers: Headers): boolean => {
+  if (localeFromCookie(headers)) {
+    return false;
+  }
+
+  const primaryLanguage = primaryBrowserLanguage(headers);
+  return Boolean(primaryLanguage && !primaryLanguage.startsWith("de"));
+};
+
+export const localeCookie = (locale: Locale): string =>
+  `locale=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
+
+export const detectLocale = (headers: Headers): Locale => {
+  const cookieLocale = localeFromCookie(headers);
+
+  if (cookieLocale) {
     return cookieLocale;
   }
 
-  return localeFromAcceptLanguage(headers.get("accept-language") ?? undefined);
+  return defaultLocale;
 };
 
 export const routeForPath = (pathname: string): RouteKey => {

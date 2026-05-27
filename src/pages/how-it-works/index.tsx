@@ -9,11 +9,11 @@ import { ConditionsSection } from "./ConditionsSection";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
 export default ssr(async (c) => {
-  const { content, locale, route } = pageContext(c, "howItWorks");
+  const { content, locale, route, showLanguagePrompt } = pageContext(c, "howItWorks");
   const page = content.pages.howItWorks;
 
   return (
-    <Layout content={content} locale={locale} route={route}>
+    <Layout content={content} locale={locale} route={route} showLanguagePrompt={showLanguagePrompt}>
       <>
         {/* Page Header */}
         <section class={`${containerClass} pt-12`} style="view-transition-name: page-header">
@@ -42,7 +42,7 @@ export default ssr(async (c) => {
           </p>
           <a
             href={localizedPath(locale, "contact")}
-            class="text-sm font-semibold text-white no-underline bg-zinc-900 px-8 py-4 inline-block rounded text-center hover:bg-zinc-800 transition-colors"
+            class="inline-block rounded border border-zinc-900 bg-zinc-900 px-8 py-4 text-center text-sm font-semibold text-white no-underline transition-colors hover:bg-white hover:text-zinc-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-900"
           >
             {page.cta.button}
           </a>

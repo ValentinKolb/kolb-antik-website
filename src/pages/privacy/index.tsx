@@ -5,11 +5,11 @@ import { pageContext } from "../../pageContext";
 const containerClass = "w-full max-w-6xl mx-auto px-5 md:px-8 lg:px-12";
 
 export default ssr(async (c) => {
-  const { content, locale, route } = pageContext(c, "privacy");
+  const { content, locale, route, showLanguagePrompt } = pageContext(c, "privacy");
   const page = content.pages.privacy;
 
   return (
-    <Layout content={content} locale={locale} route={route}>
+    <Layout content={content} locale={locale} route={route} showLanguagePrompt={showLanguagePrompt}>
       <section class={`${containerClass} pt-12 pb-8`} style="view-transition-name: page-header">
         <p class="text-xs tracking-[0.2em] uppercase text-zinc-500 mb-6">
           {page.eyebrow}

@@ -16,11 +16,9 @@
       "german": "Deutsch",
       "english": "English"
     },
-    "beta": {
-      "eyebrow": "INTERNAL BETA",
-      "title": "Note",
-      "text": "This website is currently in active development. All content, functions and representations are preliminary and non-binding.",
-      "button": "Understood"
+    "languagePrompt": {
+      "title": "Choose language",
+      "text": "Would you like to view the website in German or English?"
     },
     "buttons": {
       "contact": "Get in touch",
@@ -87,6 +85,31 @@
         "title": "Selected sales",
         "next": "Show more",
         "soldFor": "Sold for"
+      },
+      "marketplaces": {
+        "eyebrow": "SALES CHANNELS",
+        "title": "Current auctions and listings",
+        "text": "Discover our current listings directly on the platforms where we sell.",
+        "links": [
+          {
+            "label": "eBay",
+            "href": "https://www.ebay.de/str/kolbantikulm?_sop=16&_tab=shop",
+            "icon": "ti-world-www",
+            "logo": "/public/logos/ebay-logo.svg"
+          },
+          {
+            "label": "eBay Live",
+            "href": "https://www.ebay.de/str/kolbantikulm?_sop=16&_tab=shop",
+            "icon": "ti-broadcast",
+            "logo": "/public/logos/ebay-live-logo-v2.svg"
+          },
+          {
+            "label": "lot-tissimo",
+            "href": "https://www.lot-tissimo.com/de-de/auction-catalogues/kolb",
+            "icon": "ti-gavel",
+            "logo": "/public/logos/lot-tissimo-logo.jpg"
+          }
+        ]
       },
       "cta": {
         "eyebrow": "CONTACT",
@@ -204,7 +227,7 @@
             "source": "SWR Aktuell",
             "date": "October 2023",
             "title": "Online auction house from Neu-Ulm sells worldwide",
-            "text": "SWR reported on antiques, jewellery, furniture and curiosities from Neu-Ulm finding buyers around the world."
+            "text": "SWR reported on antiques, jewellery, glass and curiosities from Neu-Ulm finding buyers around the world."
           },
           {
             "source": "eBay for Business",
@@ -284,7 +307,7 @@
           { "icon": "ti-palette", "label": "Paintings & prints" },
           { "icon": "ti-cup", "label": "Porcelain & ceramics" },
           { "icon": "ti-diamond", "label": "Silver & metal collectables" },
-          { "icon": "ti-armchair", "label": "Furniture & interiors" },
+          { "icon": "ti-clock", "label": "Watches, glass & varia" },
           { "icon": "ti-rings", "label": "Jewellery & watches" },
           { "icon": "ti-yin-yang", "label": "Asian art" },
           { "icon": "ti-book", "label": "Books & autographs" },
@@ -341,7 +364,7 @@
         {
           "q": "Do you sell only through eBay?",
           "aBeforeLink": "No. eBay remains our most important sales channel because it gives us access to a large international buying audience. For selected art and collectables, we additionally use ",
-          "linkText": "Lottissimo",
+          "linkText": "lot-tissimo",
           "aAfterLink": " and other suitable auction platforms."
         },
         {
@@ -350,7 +373,7 @@
         },
         {
           "q": "Which collectables do you accept?",
-          "a": "We accept art, antiques, collectables, jewellery, silver, porcelain, furniture, entire collections and estates. If you are unsure, please contact us — we will give you a professional assessment."
+          "a": "We accept art, antiques, collectables, jewellery, silver, porcelain, glass, watches, varia, entire collections and estates. If you are unsure, please contact us — we will give you a professional assessment."
         },
         {
           "q": "Is the initial valuation free?",
@@ -391,16 +414,16 @@
         {
           "icon": "ti-brand-whatsapp",
           "title": "WhatsApp",
-          "value": "+49 731 123 456 78",
+          "value": "+49 170 7216630",
           "subtitle": "Ideal for photos",
-          "href": "https://wa.me/497311234567"
+          "href": "https://wa.me/491707216630"
         },
         {
           "icon": "ti-map-pin",
           "title": "On site",
-          "value": "Finninger Str., Neu-Ulm",
-          "subtitle": "By appointment",
-          "href": "https://maps.google.com/?q=Finningerstraße+56+89073+Neu+Ulm"
+          "value": "Finninger Straße 56",
+          "subtitle": "89231 Neu-Ulm",
+          "href": "https://maps.google.com/?q=Finninger+Straße+56+89231+Neu-Ulm"
         }
       ],
       "form": {

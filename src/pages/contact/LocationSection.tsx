@@ -32,7 +32,7 @@ export const LocationSection = (props: {
         </p>
       </div>
       <a
-        href="https://maps.google.com/?q=Finningerstraße+56+89231+Neu+Ulm"
+        href="https://maps.google.com/?q=Finninger+Straße+56+89231+Neu-Ulm"
         target="_blank"
         rel="noopener"
         class="text-sm font-semibold text-zinc-900 no-underline bg-zinc-100 px-6 py-3 inline-block rounded hover:bg-zinc-200 transition-colors"

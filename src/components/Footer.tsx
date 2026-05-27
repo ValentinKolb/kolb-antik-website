@@ -28,7 +28,12 @@ export const Footer = (props: FooterProps): JSX.Element => {
     },
     {
       href: "https://www.lot-tissimo.com/de-de/auction-catalogues/kolb",
-      label: "Lottissimo",
+      label: "lot-tissimo",
+      external: true,
+    },
+    {
+      href: "https://www.instagram.com/kolb.antik.ulm/",
+      label: "Instagram",
       external: true,
     },
   ];
