@@ -15,6 +15,16 @@ export type RouteKey =
   | "imprint"
   | "privacy";
 
+export const routeKeys: RouteKey[] = [
+  "home",
+  "howItWorks",
+  "about",
+  "faq",
+  "contact",
+  "imprint",
+  "privacy",
+];
+
 export const routePaths: Record<RouteKey, string> = {
   home: "/",
   howItWorks: "/lets-start",

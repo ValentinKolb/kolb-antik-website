@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import { logger } from "hono/logger";
 import { serveStatic } from "hono/bun";
 import { config, routes } from "../config";
+import { robotsTxt, sitemapXml } from "./seo";
 import {
   detectLocale,
   isLocale,
@@ -29,6 +30,14 @@ app.route("/_ssr", routes(config));
 
 // Static files
 app.use("/public/*", serveStatic({ root: "./" }));
+
+app.get("/robots.txt", (c) =>
+  c.body(robotsTxt(), 200, { "Content-Type": "text/plain; charset=utf-8" }),
+);
+
+app.get("/sitemap.xml", (c) =>
+  c.body(sitemapXml(), 200, { "Content-Type": "application/xml; charset=utf-8" }),
+);
 
 const setLocaleCookie = (locale: Locale) => async (c: any, next: () => Promise<void>) => {
   c.header("Set-Cookie", localeCookie(locale));
