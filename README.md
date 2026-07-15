@@ -64,6 +64,20 @@ Dockerfile                Multi-stage Docker build
 | `/privacy`     | Privacy policy  |
 | `/impressum`   | Redirect to /imprint |
 | `/datenschutz` | Redirect to /privacy |
+| `/r/:slug`     | Trackable 302 redirect |
+
+## Tracking Redirects
+
+Redirect targets are configured in `src/redirects.json` as `slug` and `url` pairs. The
+route accepts an optional lowercase campaign source of up to 64 characters:
+
+```text
+https://kolb-antik.de/r/ebay?source=flyer-a5-2026-07
+```
+
+Every request writes one JSON event to stdout with its timestamp, slug, source, target,
+and resulting status. The route reads targets only through `resolveRedirect()` so the
+JSON lookup can later be replaced with a database query without changing printed URLs.
 
 ## Architecture
 

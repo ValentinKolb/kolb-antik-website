@@ -16,6 +16,7 @@ RUN bun run build
 # Production
 FROM base AS release
 WORKDIR /app
+ENV NODE_ENV=production
 
 # Install production dependencies only
 COPY package.json bun.lock ./

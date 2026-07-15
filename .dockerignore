@@ -2,4 +2,10 @@ node_modules
 dist
 _ssr
 .DS_Store
+.dex
+.git
+.playwright-cli
 .github
+AGENTS.md
+flyer
+output

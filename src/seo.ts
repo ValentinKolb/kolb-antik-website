@@ -7,7 +7,7 @@ import {
   type RouteKey,
 } from "./i18n";
 
-export const siteUrl = (process.env.SITE_URL ?? "https://kolb-antik.website").replace(/\/$/, "");
+export const siteUrl = (process.env.SITE_URL ?? "https://kolb-antik.de").replace(/\/$/, "");
 
 export const siteImage = "/public/imgs/social-preview.jpg";
 

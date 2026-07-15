@@ -3,6 +3,7 @@ import { logger } from "hono/logger";
 import { serveStatic } from "hono/bun";
 import { config, routes } from "../config";
 import { robotsTxt, sitemapXml } from "./seo";
+import { isRedirectSource, resolveRedirect } from "./redirects";
 import {
   detectLocale,
   isLocale,
@@ -22,6 +23,21 @@ import privacy from "./pages/privacy/index";
 
 const app = new Hono();
 
+type RedirectLog = {
+  slug: string;
+  source: string | null;
+  target: string | null;
+  status: 302 | 400 | 404;
+};
+
+const logRedirect = (entry: RedirectLog): void => {
+  console.info(JSON.stringify({
+    event: "redirect",
+    timestamp: new Date().toISOString(),
+    ...entry,
+  }));
+};
+
 // Middleware
 app.use(logger());
 
@@ -38,6 +54,28 @@ app.get("/robots.txt", (c) =>
 app.get("/sitemap.xml", (c) =>
   c.body(sitemapXml(), 200, { "Content-Type": "application/xml; charset=utf-8" }),
 );
+
+app.get("/r/:slug", async (c) => {
+  c.header("Cache-Control", "no-store");
+  c.header("X-Robots-Tag", "noindex, nofollow");
+
+  const slug = c.req.param("slug");
+  const source = c.req.query("source");
+  if (source !== undefined && !isRedirectSource(source)) {
+    logRedirect({ slug, source: null, target: null, status: 400 });
+    return c.text("Invalid source", 400);
+  }
+
+  const target = await resolveRedirect(slug);
+  logRedirect({
+    slug,
+    source: source ?? null,
+    target,
+    status: target ? 302 : 404,
+  });
+
+  return target ? c.redirect(target, 302) : c.notFound();
+});
 
 const setLocaleCookie = (locale: Locale) => async (c: any, next: () => Promise<void>) => {
   c.header("Set-Cookie", localeCookie(locale));
